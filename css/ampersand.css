@@ -373,4 +373,10 @@ nav#sticky-nav ul li {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+/* LESS Document */
+body.category-to-have h1.entry-title:after {
+  content: "Our Creative Ideas";
+  display: block;
+  clear: both;
+}
 /*# sourceMappingURL=ampersand.css.map */
