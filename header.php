@@ -641,7 +641,9 @@ endif; ?>
 		</div>
 	</div>
 	<?php endif; ?>
-	<?php if(is_archive() && !is_search() && !is_woocommerce() && !is_bbpress()): ?>
+    <?php if (is_category()): ?>
+    Category Archive
+    <?php elseif(is_archive() && !is_search() && !is_woocommerce() && !is_bbpress()): ?>
 	<div class="page-title-container">
 		<div class="page-title">
 			<div class="page-title-wrapper">
