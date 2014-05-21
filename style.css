@@ -1,0 +1,16 @@
+/*
+ Theme Name:   Ampersand Events Weddings (Child of Avada)
+ Theme URI:    http://example.com/twenty-fourteen-child/
+ Description:  Ampersand Events Child theme - relies on Avada theme being installed
+ Author:       nathan edwards
+ Author URI:   http://digital.chandco.net
+ Template:     Avada
+ Version:      0.1
+ Text Domain:  twenty-fourteen-child
+*/
+
+/* The legacy css is a direct copy of Avada's style.css, but with some hacking of things like colours. */
+@import url("css/legacy.css");
+
+
+@import url("css/ampersand.css");

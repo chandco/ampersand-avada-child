@@ -1,0 +1,376 @@
+/* LESS Document */
+@font-face {
+  font-family: 'icomoon';
+  src: url('../fonts/icomoon.eot?-ot8xzu');
+  src: url('../fonts/icomoon.eot?#iefix-ot8xzu') format('embedded-opentype'), url('../fonts/icomoon.woff?-ot8xzu') format('woff'), url('../fonts/icomoon.ttf?-ot8xzu') format('truetype'), url('../fonts/icomoon.svg?-ot8xzu#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"],
+[class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-round-center {
+  content: "\e604\e602";
+}
+.icon-floral-center {
+  content: "\e606\e601";
+}
+.icon-long-center {
+  content: "\e605\e600";
+}
+.icon-round-left {
+  content: "\e604";
+}
+.icon-long-left {
+  content: "\e605";
+}
+.icon-floral-left {
+  content: "\e606";
+}
+.icon-round-right {
+  content: "\e602";
+}
+.icon-heart {
+  content: "\e603";
+}
+.icon-long-right {
+  content: "\e600";
+}
+.icon-floral-right {
+  content: "\e601";
+}
+.avenir-medium {
+  font-family: "Avenir LT W01 65 Medium";
+}
+.avenir-heavy {
+  font-family: "Avenir LT W01 85 Heavy";
+}
+#main .reading-box h2,
+#main h2,
+.page-title h1,
+.image .image-extras .image-extras-content h3,
+.image .image-extras .image-extras-content h3 a,
+#main .post h2,
+#sidebar .widget h3,
+.tab-holder .tabs li a,
+.share-box h4,
+.project-content h3,
+.author .author_title,
+h5.toggle a,
+.full-boxed-pricing ul li.title-row,
+.full-boxed-pricing ul li.pricing-row,
+.sep-boxed-pricing ul li.title-row,
+.sep-boxed-pricing ul li.pricing-row,
+.person-author-wrapper,
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4,
+.post-content h5,
+.post-content h6,
+.ei-title h2,
+#header-sticky,
+#header .tagline,
+table th,
+.project-content .project-info h4,
+.woocommerce-success-message .msg,
+.product-title,
+.cart-empty,
+#wrapper .fusion-megamenu-wrapper .fusion-megamenu-title {
+  font-family: "Avenir LT W01 85 Heavy";
+}
+body,
+#nav ul li ul li a,
+#sticky-nav ul li ul li a,
+#wrapper .fusion-megamenu-wrapper .fusion-megamenu-widgets-container,
+.more,
+.avada-container h3,
+.meta .date,
+.review blockquote q,
+.review blockquote div strong,
+.image .image-extras .image-extras-content h4,
+.image .image-extras .image-extras-content h4 a,
+.project-content .project-info h4,
+.post-content blockquote,
+.button.large,
+.button.small,
+.ei-title h3,
+.cart-contents,
+.comment-form input[type="submit"],
+.wpcf7-form input[type="submit"],
+.gform_wrapper .gform_button,
+.woocommerce-success-message .button,
+.woocommerce .single_add_to_cart_button,
+.woocommerce .shipping-calculator-form .button,
+.woocommerce form.checkout #place_order,
+.woocommerce .checkout_coupon .button,
+.woocommerce .login .button,
+.woocommerce .register .button,
+.page-title h3,
+.blog-shortcode h3.timeline-title,
+#reviews #comments > h2 {
+  font-family: "Avenir LT W01 65 Medium";
+}
+a:link,
+a:hover,
+a:active,
+a:visited {
+  color: #9260a9;
+}
+nav#nav,
+nav#sticky-nav {
+  clear: both !important;
+  float: none;
+  width: 100%;
+  margin: auto;
+}
+nav#nav ul,
+nav#sticky-nav ul {
+  text-align: center;
+}
+nav#nav ul li,
+nav#sticky-nav ul li {
+  display: inline-block;
+  float: none;
+  padding: 0 17px;
+}
+.ampersand-group-menu {
+  display: block;
+  float: right;
+}
+.ampersand-group-menu ul {
+  border-left: 1px solid #b2b2b2;
+  width: 300px;
+  list-style-type: none;
+  padding: 0 0 0 10px;
+  margin: 0;
+  font-family: Arial;
+}
+.ampersand-group-menu ul li {
+  font-size: 12px;
+  float: none;
+  margin: 0;
+  padding: 0;
+}
+.ampersand-group-menu ul li a {
+  color: #7b4977;
+  height: auto;
+  line-height: 14px;
+}
+.aquote {
+  font-size: 22px;
+  display: inline-block;
+  line-height: 34px;
+  color: #808080;
+  font-family: "Avenir LT W01 65 Medium";
+}
+.aquote strong {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: normal;
+  font-style: italic;
+}
+.aquote.pink:after,
+.aquote.pink strong {
+  color: #e89eae;
+}
+.aquote.babyblue:after,
+.aquote.babyblue strong {
+  color: #81bdeb;
+}
+.aquote.purple:after,
+.aquote.purple strong {
+  color: #9260a9;
+}
+.aquote.peach:after,
+.aquote.peach strong {
+  color: #f0b984;
+}
+.aquote:after {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: smaller;
+  padding-left: 10px;
+}
+.aquote.long-right:after {
+  content: "\e600";
+}
+.aquote.long-left:after {
+  content: "\e605";
+}
+.aquote.round-right:after {
+  content: "\e604";
+}
+.aquote.round-left:after {
+  content: "\e602";
+}
+.aquote.floral-left:after {
+  content: "\e606";
+}
+.aquote.floral-right:after {
+  content: "\e601";
+}
+.aquote.heart:after {
+  content: "\e603";
+}
+#main .homepage-trio div.one_third h2 {
+  font-size: 28px;
+  font-family: "Avenir LT W01 65 Medium";
+  color: #808080;
+}
+#main .homepage-trio div.one_third h2 strong {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+}
+#main .homepage-trio div.one_third span.floral-border {
+  border: 1px solid #9260a9;
+  display: block;
+  padding: 5%;
+  height: 0;
+  padding-bottom: 56.25%;
+}
+#main .homepage-trio div.one_third span.floral-border:before {
+  display: block;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: -5px;
+  text-shadow: 5px 0 0 #ffffff, -5px 0 0 #ffffff, 0 5px 0 #ffffff, 0 -5px 0 #ffffff, 5px 5px #ffffff, -5px -5px 0 #ffffff, 5px -5px 0 #ffffff, -5px 5px 0 #ffffff;
+  text-align: center;
+  width: auto;
+}
+#main .homepage-trio div.one_third span.floral-border img {
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+}
+#main .homepage-trio div.one_third:nth-child(1) {
+  color: #e89eae;
+}
+#main .homepage-trio div.one_third:nth-child(1) h2:after {
+  content: "\e600";
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: smaller;
+  padding-left: 10px;
+  color: #e89eae;
+}
+#main .homepage-trio div.one_third:nth-child(1) h2 strong {
+  color: #e89eae;
+}
+#main .homepage-trio div.one_third:nth-child(1) span.floral-border {
+  border-color: #e89eae;
+}
+#main .homepage-trio div.one_third:nth-child(1) span.floral-border:before {
+  content: "\e605\e600";
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+#main .homepage-trio div.one_third:nth-child(2) {
+  color: #81bdeb;
+}
+#main .homepage-trio div.one_third:nth-child(2) h2 strong {
+  color: #81bdeb;
+}
+#main .homepage-trio div.one_third:nth-child(2) h2 strong:after {
+  content: "\e602";
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: smaller;
+  padding-left: 10px;
+}
+#main .homepage-trio div.one_third:nth-child(2) span.floral-border {
+  border-color: #81bdeb;
+}
+#main .homepage-trio div.one_third:nth-child(2) span.floral-border:before {
+  content: "\e604\e602";
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+#main .homepage-trio div.one_third:nth-child(3) {
+  color: #f0b984;
+}
+#main .homepage-trio div.one_third:nth-child(3) h2:after {
+  content: "\e601";
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: smaller;
+  padding-left: 10px;
+  color: #f0b984;
+}
+#main .homepage-trio div.one_third:nth-child(3) h2 strong {
+  color: #f0b984;
+}
+#main .homepage-trio div.one_third:nth-child(3) span.floral-border {
+  border-color: #f0b984;
+}
+#main .homepage-trio div.one_third:nth-child(3) span.floral-border:before {
+  content: "\e606\e601";
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/*# sourceMappingURL=ampersand.css.map */
