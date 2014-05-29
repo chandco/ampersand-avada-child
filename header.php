@@ -641,8 +641,27 @@ endif; ?>
 		</div>
 	</div>
 	<?php endif; ?>
-    <?php if (is_category()): ?>
-    Category Archive
+    <?php if (is_category()): // For Ampersand categories - overriding the other ones and adding a special menu ?>
+    <div class="avada-row category_banners">
+    	
+    	<div class='one_third'>
+		<h1 class='category-title'><?php single_cat_title(); ?></h1>
+    	<?php 
+    	// get the category subtitle
+    	$queried_object = get_queried_object(); 
+		$taxonomy = $queried_object->taxonomy;
+		$term_id = $queried_object->term_id;  
+		 
+		// load thumbnail for this taxonomy term (term object)
+		
+ 		echo get_field('category_subtitle', $queried_object);
+    	?>
+    	</div>
+    	<hr /><?php wp_nav_menu( array( 'theme_location' => 'category-section-menu', 'container_class' => 'category-section-menu' ) ); ?><hr />
+	</div>
+    
+
+
     <?php elseif(is_archive() && !is_search() && !is_woocommerce() && !is_bbpress()): ?>
 	<div class="page-title-container">
 		<div class="page-title">

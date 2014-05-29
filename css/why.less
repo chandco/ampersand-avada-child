@@ -1,0 +1,45 @@
+
+
+.mixin() {
+	background-position: top left;
+}
+
+
+
+
+.glyph-title(@color: @peach, @transform: true) {
+
+
+    font-size:32px;
+	line-height:34px;
+	color: @grey;
+	.avenir-medium;
+	text-transform: lowercase;
+	font-weight: normal;
+	strong { 
+		font-family: Georgia, "Times New Roman", Times, serif;
+		font-weight:normal;
+		font-style:italic;
+		color:@color;
+		text-transform: lowercase;
+	}
+
+	
+	
+	&:after { 
+		.icomoon(); 
+		color: @color; 
+	}
+
+	& when (@transform = true) {
+		text-transform: uppercase; 
+	}
+
+
+}
+
+body.category-to-have {
+	h1.category-title {
+		.glyph-title(long-right, @purple, false);
+	}
+}

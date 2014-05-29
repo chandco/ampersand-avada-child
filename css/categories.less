@@ -1,19 +1,206 @@
 /* LESS Document */
 
+.category-section-menu ul li {
+
+	font-size:22px;
+	display:inline-block;
+	line-height:34px;
+	color: @grey;
+	.avenir-medium;
+	text-transform: lowercase;
+
+	margin-right:25px;
+
+	a { color: @grey !important; }
+	
+	strong { 
+		font-family: Georgia, "Times New Roman", Times, serif;
+		font-weight:normal;
+		font-style:italic;
+	}
+	
+	&:nth-child(4n-3) strong { color:@peach; }
+	&:nth-child(4n-3):after { .icon-floral-right; color: @peach; }
+	&:nth-child(4n-3) { text-transform: uppercase; strong { text-transform: lowercase; } }
+
+	&:nth-child(4n-2) strong { color:@babyblue; }
+	&:nth-child(4n-2):after { .icon-long-right; color: @babyblue; font-size:15px; }
+
+	&:nth-child(4n-1):after { .icon-heart; color: @pink; }
+	&:nth-child(4n-1) strong { color:@pink; }
+	
+
+	&:nth-child(4n) strong { color:@purple; }
+	&:nth-child(4n):after { .icon-round-right; color:@purple; }
+		
+	&:after { .icomoon;font-size:smaller;padding-left:10px; }
+
+	transform: scale(1,1);
+	&:hover {
+		opacity: 1 !important;
+		transform: scale(1.1,1.1);
+	}
+
+	transition: opacity 0.5s ease, transform 0.5s ease;
+
+}
+
+.category-section-menu ul:hover li {
+	color: @grey !important;
+	opacity:0.3;
+}
+
+
+
+h1.category-title {
+
+	font-size:32px;
+	line-height:34px;
+	color: @grey;
+	.avenir-medium;
+	text-transform: lowercase;
+	font-weight: normal;
+	strong { 
+		font-family: Georgia, "Times New Roman", Times, serif;
+		font-weight:normal;
+		font-style:italic;
+		color:@peach;
+	}
+	
+	&:after { 
+		.icomoon(); 
+		.icon-floral-left; 
+		color: @peach; 
+	}
+	
+	
+}
+
+
+
+
+
+.glyph-title(@color) {
+    font-size:32px;
+	line-height:34px;
+	color: @grey;
+	.avenir-medium;
+	text-transform: lowercase;
+	font-weight: normal;	
+	strong { 
+		font-family: Georgia, "Times New Roman", Times, serif;
+		font-weight:normal;
+		font-style:italic;
+		text-transform: lowercase;
+	}
+
+	&:after { 
+		.icomoon(); 	
+	}
+
+	margin-bottom:5px;
+	.glyph-title-color(@color);
+}
+
+.glyph-title-color(@color : @peach) {
+
+	strong, &:after { color: @color; }
+}
+
+@tohave: @peach;
+@withlove : @babyblue;
+@tohold: @pink;
+
+
+.image .image-extras{
+	width:101%;
+	height:100%;
+	background-image: linear-gradient(top, @purple 0%, @aubergine 100%);
+	background-image: -o-linear-gradient(top, @purple 0%, @aubergine 100%);
+	background-image: -moz-linear-gradient(top, @purple 0%, @aubergine 100%);
+	background-image: -webkit-linear-gradient(top, @purple 0%, @aubergine 100%);
+	background-image: -ms-linear-gradient(top, @purple 0%, @aubergine 100%);
+}
+
 body.category-to-have {
-	
-	
-		h1.entry-title {
-			&:after {
-				content:"Our Creative Ideas";
-				display:block;
-				clear:both;
+	a:active, a:hover, a:link, a:visited { color: @tohave; }
+	.tab-holder .tabs li.active a { border-top: 3px solid  @tohave !important; }
+	h1.category-title {
+		.glyph-title(@tohave);
+		&:after {.icon-floral-right();}
+	}
+	.slides
+	{
+		border:1px solid @tohave;
+		&:before {
+				.icon-floral-center;
+				.icomoon;
+				color:@tohave;
 			}
-		}
-	
-	
-	
-	
-	
-	
+		
+	}
+}
+
+body.category-with-love {
+	a:active, a:hover, a:link, a:visited { color: @withlove; }
+	.tab-holder .tabs li.active a { border-top: 3px solid  @withlove !important; }
+	h1.category-title {
+		.glyph-title(@withlove);
+		&:after {.icon-long-right();}
+	}
+	.slides
+	{
+		border:1px solid @withlove;
+		&:before {
+				.icon-long-center;
+				.icomoon;
+				color:@withlove;
+			}
+		
+	}
+}
+
+body.category-to-hold {
+	a:active, a:hover, a:link, a:visited { color: @tohold; }
+	.tab-holder .tabs li.active a { border-top: 3px solid @tohold !important; }
+	h1.category-title {
+		.glyph-title(@tohold);
+		&:after {.icon-heart();}
+	}
+
+	.slides
+	{
+		border:1px solid @tohold;
+		&:before {
+				.icon-heart;
+				.icomoon;
+				color:@tohold;
+			}
+		
+	}
+}
+
+
+// blog feed stuff
+
+body.category .post {
+	.slides {
+
+		
+			display:block;
+			padding:5%;
+			&:before {
+				display:block;
+				position:absolute;
+				margin:auto;
+				left:0;
+				right:0;
+				top:-5px;
+				.text-border(5px, #fff);
+				text-align:center;
+				width:auto;
+			}
+
+
+	}
 }
