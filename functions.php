@@ -10,6 +10,7 @@ function ampersand_events_init() {
 	  register_nav_menu('ampersand-group-menu',__( 'Ampersand Group Menu' ));
 	 // register_nav_menu('homepage-section-menu',__( 'Ampersand Homepage Section Menu' ));
 	  register_nav_menu('category-section-menu',__( 'Ampersand Category Section' ));  
+	  register_nav_menu('sidebar-menu-categories',__( 'Ampersand Side Bar Menus' ));  
 }
 
 add_action( 'init', 'ampersand_events_init' );

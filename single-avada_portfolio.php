@@ -267,14 +267,18 @@
 				</div>
 				<div class="project-info" style="<?php echo $project_info_style; ?>">
 					<h3><?php echo __('Venue Details', 'Avada'); ?></h3>
-					<?php if(get_the_term_list($post->ID, 'portfolio_skills', '', '<br />', '')): ?>
+					
+
 					<div class="project-info-box">
-						<h4><?php echo __('Skills Needed', 'Avada') ?>:</h4>
-						<div class="project-terms">
-							<?php echo get_the_term_list($post->ID, 'portfolio_skills', '', '<br />', ''); ?>
-						</div>
+						<strong>Address</strong><br />
+						<?php echo get_field('address', $post->ID); ?>
 					</div>
-					<?php endif; ?>
+
+					<div class="project-info-box">
+						<strong>Venue Capacities</strong><br />
+						<?php echo get_field('capacities', $post->ID); ?>
+					</div>
+
 					<?php if(get_the_term_list($post->ID, 'portfolio_category', '', '<br />', '')): ?>
 					<div class="project-info-box">
 						<h4><?php echo __('Categories', 'Avada') ?>:</h4>
@@ -283,6 +287,7 @@
 						</div>
 					</div>
 					<?php endif; ?>
+
 					<?php if(get_the_term_list($post->ID, 'portfolio_tags', '', '<br />', '')): ?>
 					<div class="project-info-box">
 						<h4><?php echo __('Tags', 'Avada') ?>:</h4>
@@ -291,23 +296,9 @@
 						</div>
 					</div>
 					<?php endif; ?>
-					<?php if(get_post_meta($post->ID, 'pyre_project_url', true) && get_post_meta($post->ID, 'pyre_project_url_text', true)): ?>
-					<div class="project-info-box">
-						<h4><?php echo __('Project URL', 'Avada') ?>:</h4>
-						<span><a href="<?php echo get_post_meta($post->ID, 'pyre_project_url', true); ?>"><?php echo get_post_meta($post->ID, 'pyre_project_url_text', true); ?></a></span>
-					</div>
-					<?php endif; ?>
-					<?php if(get_post_meta($post->ID, 'pyre_copy_url', true) && get_post_meta($post->ID, 'pyre_copy_url_text', true)): ?>
-					<div class="project-info-box">
-						<h4><?php echo __('Copyright', 'Avada'); ?>:</h4>
-						<span><a href="<?php echo get_post_meta($post->ID, 'pyre_copy_url', true); ?>"><?php echo get_post_meta($post->ID, 'pyre_copy_url_text', true); ?></a></span>
-					</div>
-					<?php endif; ?>
-					<?php if($data['portfolio_author']): ?>
-					<div class="project-info-box vcard">
-						<h4><?php echo __('By', 'Avada'); ?>:</h4><span class="fn"><?php the_author_posts_link(); ?></span>
-					</div>
-					<?php endif; ?>
+
+					
+
 				</div>
 			</div>
 			<div class="portfolio-sep"></div>

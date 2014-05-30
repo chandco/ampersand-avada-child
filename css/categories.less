@@ -2,7 +2,7 @@
 
 .category-section-menu ul li {
 
-	font-size:22px;
+	font-size:20px;
 	display:inline-block;
 	line-height:34px;
 	color: @grey;
@@ -20,20 +20,20 @@
 	}
 	
 	&:nth-child(4n-3) strong { color:@peach; }
-	&:nth-child(4n-3):after { .icon-floral-right; color: @peach; }
+	&:nth-child(4n-3) a:after { .icon-floral-right; color: @peach; }
 	&:nth-child(4n-3) { text-transform: uppercase; strong { text-transform: lowercase; } }
 
 	&:nth-child(4n-2) strong { color:@babyblue; }
-	&:nth-child(4n-2):after { .icon-long-right; color: @babyblue; font-size:15px; }
+	&:nth-child(4n-2) a:after { .icon-long-right; color: @babyblue; font-size:15px; }
 
-	&:nth-child(4n-1):after { .icon-heart; color: @pink; }
+	&:nth-child(4n-1) a:after { .icon-heart; color: @pink; }
 	&:nth-child(4n-1) strong { color:@pink; }
 	
 
 	&:nth-child(4n) strong { color:@purple; }
-	&:nth-child(4n):after { .icon-round-right; color:@purple; }
+	&:nth-child(4n) a:after { .icon-round-right; color:@purple; }
 		
-	&:after { .icomoon;font-size:smaller;padding-left:10px; }
+	a:after { .icomoon;font-size:smaller;padding-left:10px; }
 
 	transform: scale(1,1);
 	&:hover {
@@ -53,7 +53,7 @@
 
 
 h1.category-title {
-
+	// our defaults are here
 	font-size:32px;
 	line-height:34px;
 	color: @grey;
@@ -64,13 +64,13 @@ h1.category-title {
 		font-family: Georgia, "Times New Roman", Times, serif;
 		font-weight:normal;
 		font-style:italic;
-		color:@peach;
+		color:@purple;
 	}
 	
 	&:after { 
 		.icomoon(); 
-		.icon-floral-left; 
-		color: @peach; 
+		.icon-round-right; 
+		color: @purple; 
 	}
 	
 	

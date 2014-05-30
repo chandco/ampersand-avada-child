@@ -45,9 +45,16 @@ nav#nav, nav#sticky-nav {
 	}
 }
 
+a .aquote {
+	&:hover {
+		transform:scale(1.2,1.2)
+	}
+	transition: transform 0.5s ease;
+}
 
 .aquote {
-	
+
+
 	font-size:22px;
 	display:inline-block;
 	line-height:34px;
@@ -120,11 +127,19 @@ nav#nav, nav#sticky-nav {
 					
 			img {
 				box-shadow: 2px 2px 10px RGBA(0,0,0,0.7);
+				transition: transform 0.2s ease;
+			}
+
+			&:hover {
+				img { 
+					transform:scale(1.1,1.1);
+				}
 			}
 		}
 		
-		&:nth-child(1) {
+		&:nth-child(3n-2) {
 			color: @pink;
+			a { color: @pink; }
 			h2 {
 				&:after { .icon-long-right;.icomoon;font-size:smaller;padding-left:10px;color: @pink; }
 				strong {
@@ -138,8 +153,9 @@ nav#nav, nav#sticky-nav {
 			}
 		}
 		
-		&:nth-child(2) {
+		&:nth-child(3n-1) {
 			color: @babyblue;
+			a { color: @babyblue; }
 			h2 strong {
 				color: @babyblue;
 				&:after { .icon-round-right;.icomoon;font-size:smaller;padding-left:10px; }
@@ -151,8 +167,9 @@ nav#nav, nav#sticky-nav {
 			}
 		}
 		
-		&:nth-child(3) {
+		&:nth-child(3n) {
 			color: @peach;
+			a { color: @peach; }
 			h2 {
 				&:after { .icon-floral-right;.icomoon;font-size:smaller;padding-left:10px;color: @peach; }
 				 strong {
@@ -199,6 +216,16 @@ nav#nav, nav#sticky-nav {
 }
 
 hr { .hr(); }
+
+span.rightline {
+	float: right;
+	height:1px;
+	background: @lightgrey;
+	
+	display: block;
+	top:7px;
+	position: relative;
+}
 
 
 // for category banners css fixes
