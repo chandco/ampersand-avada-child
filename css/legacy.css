@@ -684,10 +684,10 @@ body #header-sticky.sticky-header #sticky-nav ul.menu .cart a{
 	padding-left: 0;
 }
 .review.male blockquote div .company-name{
-	background:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/ico-user.png) no-repeat;
+	background:url(../../Avada/images/ico-user.png) no-repeat;
 }
 .review.female blockquote div .company-name{
-	background:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/ico-user-girl.png) no-repeat;
+	background:url(../../Avada/images/ico-user-girl.png) no-repeat;
 }
 .footer-widget-col{margin-bottom:20px;}
 .footer-widget-col:last-child{margin-bottom:0;}
@@ -702,7 +702,7 @@ body #header-sticky.sticky-header #sticky-nav ul.menu .cart a{
 	float:none;
 	display:block;
 	margin:0 0 22px;
-	background:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/logo-footer.gif) no-repeat;
+	background:url(../../Avada/images/logo-footer.gif) no-repeat;
 }
 .footer-area  h3{
 	margin:0 0 28px;
@@ -764,7 +764,7 @@ body #header-sticky.sticky-header #sticky-nav ul.menu .cart a{
 .copyright li{
 	float:left;
 	padding:0 9px 0 10px;
-	background:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/divider-02.gif) no-repeat 0 50%;
+	background:url(../../Avada/images/divider-02.gif) no-repeat 0 50%;
 }
 .copyright li:first-child{
 	padding-left:0;
@@ -803,47 +803,47 @@ body #header-sticky.sticky-header #sticky-nav ul.menu .cart a{
 #sidebar .social-networks a{border-bottom:0 !important; padding:0 !important;}
 #sidebar .social-networks li{margin-bottom:10px !important;}
 
-.social-networks .facebook a{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/facebook.png) !important; width:9px; height:17px;}
-.social-networks .twitter a{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/twitter.png) !important; width:13px; height:16px;}
-.social-networks .linkedin a{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/linkedin.png) !important; width:14px; height:13px;}
-.social-networks .rss a{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/rss.png) !important; width:13px; height:13px;}
-.social-networks .dribbble a{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/dribbble.png) !important; width:16px; height:16px;}
-.social-networks .youtube a{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/youtube.png) !important; width:23px; height:25px;}
-.social-networks .tf-pinterest a{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/pinterest.png) !important; width:16px !important; height:20px !important;}
-.social-networks .vimeo a{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/vimeo.png) !important; width:18px; height:16px;}
-.social-networks .flickr a{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/flickr.png) !important; width:25px; height:17px;}
-.social-networks .tumblr a{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/tumblr.png) !important; width:15px; height:16px;}
-.social-networks .google a{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/google.png) !important; width:21px; height:18px;}
-.social-networks .digg a{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/digg.png) !important; width:21px; height:19px;}
-.social-networks .blogger a{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/blogger.png) !important; width:16px; height:15px;}
-.social-networks .skype a{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/skype.png) !important; width:19px; height: 19px;}
-.social-networks .myspace a{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/myspace.png) !important; width:18px; height:18px;}
-.social-networks .deviantart a{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/deviantart.png) !important; width:23px; height:18px;}
-.social-networks .yahoo a{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/yahoo.png) !important; width:22px; height:14px;}
-.social-networks .reddit a{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/reddit.png) !important; width:19px; height:15px;}
-.social-networks .forrst a{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/forrst.png) !important; width:15px; height:19px;}
-.social-networks .email a{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/mail.png) !important; width:20px; height:14px; margin-top:2px;}
+.social-networks .facebook a{background-image:url(../../Avada/images/facebook.png) !important; width:9px; height:17px;}
+.social-networks .twitter a{background-image:url(../../Avada/images/twitter.png) !important; width:13px; height:16px;}
+.social-networks .linkedin a{background-image:url(../../Avada/images/linkedin.png) !important; width:14px; height:13px;}
+.social-networks .rss a{background-image:url(../../Avada/images/rss.png) !important; width:13px; height:13px;}
+.social-networks .dribbble a{background-image:url(../../Avada/images/dribbble.png) !important; width:16px; height:16px;}
+.social-networks .youtube a{background-image:url(../../Avada/images/youtube.png) !important; width:23px; height:25px;}
+.social-networks .tf-pinterest a{background-image:url(../../Avada/images/pinterest.png) !important; width:16px !important; height:20px !important;}
+.social-networks .vimeo a{background-image:url(../../Avada/images/vimeo.png) !important; width:18px; height:16px;}
+.social-networks .flickr a{background-image:url(../../Avada/images/flickr.png) !important; width:25px; height:17px;}
+.social-networks .tumblr a{background-image:url(../../Avada/images/tumblr.png) !important; width:15px; height:16px;}
+.social-networks .google a{background-image:url(../../Avada/images/google.png) !important; width:21px; height:18px;}
+.social-networks .digg a{background-image:url(../../Avada/images/digg.png) !important; width:21px; height:19px;}
+.social-networks .blogger a{background-image:url(../../Avada/images/blogger.png) !important; width:16px; height:15px;}
+.social-networks .skype a{background-image:url(../../Avada/images/skype.png) !important; width:19px; height: 19px;}
+.social-networks .myspace a{background-image:url(../../Avada/images/myspace.png) !important; width:18px; height:18px;}
+.social-networks .deviantart a{background-image:url(../../Avada/images/deviantart.png) !important; width:23px; height:18px;}
+.social-networks .yahoo a{background-image:url(../../Avada/images/yahoo.png) !important; width:22px; height:14px;}
+.social-networks .reddit a{background-image:url(../../Avada/images/reddit.png) !important; width:19px; height:15px;}
+.social-networks .forrst a{background-image:url(../../Avada/images/forrst.png) !important; width:15px; height:19px;}
+.social-networks .email a{background-image:url(../../Avada/images/mail.png) !important; width:20px; height:14px; margin-top:2px;}
 
-.social-networks-light .facebook a{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/white/facebook.png) !important;}
-.social-networks-light .twitter a{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/white/twitter.png) !important;}
-.social-networks-light .linkedin a{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/white/linkedin.png) !important;}
-.social-networks-light .rss a{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/white/rss.png) !important;}
-.social-networks-light .dribbble a{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/white/dribbble.png) !important;}
-.social-networks-light .youtube a{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/white/youtube.png) !important;}
-.social-networks-light .tf-pinterest a{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/white/pinterest.png) !important;}
-.social-networks-light .vimeo a{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/white/vimeo.png) !important;}
-.social-networks-light .flickr a{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/white/flickr.png) !important;}
-.social-networks-light .tumblr a{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/white/tumblr.png) !important;}
-.social-networks-light .google a{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/white/google.png) !important;}
-.social-networks-light .digg a{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/white/digg.png) !important;}
-.social-networks-light .blogger a{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/white/blogger.png) !important;}
-.social-networks-light .skype a{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/white/skype.png) !important;}
-.social-networks-light .myspace a{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/white/myspace.png) !important;}
-.social-networks-light .deviantart a{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/white/deviantart.png) !important;}
-.social-networks-light .yahoo a{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/white/yahoo.png) !important;}
-.social-networks-light .reddit a{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/white/reddit.png) !important;}
-.social-networks-light .forrst a{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/white/forrst.png) !important;}
-.social-networks-light .email a{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/white/mail.png) !important;}
+.social-networks-light .facebook a{background-image:url(../../Avada/images/white/facebook.png) !important;}
+.social-networks-light .twitter a{background-image:url(../../Avada/images/white/twitter.png) !important;}
+.social-networks-light .linkedin a{background-image:url(../../Avada/images/white/linkedin.png) !important;}
+.social-networks-light .rss a{background-image:url(../../Avada/images/white/rss.png) !important;}
+.social-networks-light .dribbble a{background-image:url(../../Avada/images/white/dribbble.png) !important;}
+.social-networks-light .youtube a{background-image:url(../../Avada/images/white/youtube.png) !important;}
+.social-networks-light .tf-pinterest a{background-image:url(../../Avada/images/white/pinterest.png) !important;}
+.social-networks-light .vimeo a{background-image:url(../../Avada/images/white/vimeo.png) !important;}
+.social-networks-light .flickr a{background-image:url(../../Avada/images/white/flickr.png) !important;}
+.social-networks-light .tumblr a{background-image:url(../../Avada/images/white/tumblr.png) !important;}
+.social-networks-light .google a{background-image:url(../../Avada/images/white/google.png) !important;}
+.social-networks-light .digg a{background-image:url(../../Avada/images/white/digg.png) !important;}
+.social-networks-light .blogger a{background-image:url(../../Avada/images/white/blogger.png) !important;}
+.social-networks-light .skype a{background-image:url(../../Avada/images/white/skype.png) !important;}
+.social-networks-light .myspace a{background-image:url(../../Avada/images/white/myspace.png) !important;}
+.social-networks-light .deviantart a{background-image:url(../../Avada/images/white/deviantart.png) !important;}
+.social-networks-light .yahoo a{background-image:url(../../Avada/images/white/yahoo.png) !important;}
+.social-networks-light .reddit a{background-image:url(../../Avada/images/white/reddit.png) !important;}
+.social-networks-light .forrst a{background-image:url(../../Avada/images/white/forrst.png) !important;}
+.social-networks-light .email a{background-image:url(../../Avada/images/white/mail.png) !important;}
 
 .popup{
 	display:none;
@@ -854,7 +854,7 @@ body #header-sticky.sticky-header #sticky-nav ul.menu .cart a{
 	line-height:15px;
 	bottom:110%;
 	left:-17px;
-	background:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/bg-popup.png) no-repeat 0 100%;
+	background:url(../../Avada/images/bg-popup.png) no-repeat 0 100%;
 }
 .popup p{margin:0 !important;}
 .popup .holder{
@@ -1077,8 +1077,8 @@ body #header-sticky.sticky-header #sticky-nav ul.menu .cart a{
 }
 .image .image-extras .image-extras-content .icon,
 .image .image-extras .image-extras-content .icon img{width:35px; height:36px; display:inline-block; vertical-align:top; text-indent:-10000px;}
-.image-extras .link-icon{background:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/link-ico.png);}
-.image-extras .gallery-icon{background:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/finder-ico.png);}
+.image-extras .link-icon{background:url(../../Avada/images/link-ico.png);}
+.image-extras .gallery-icon{background:url(../../Avada/images/finder-ico.png);}
 .image-extras .cats{display:block;}
 .image-extras .cats a{display:inline;line-height:normal !important;}
 
@@ -1207,7 +1207,7 @@ body .post-content .image-extras .link-icon{margin-right:3px !important;}
 	text-indent:-10000px;
 	height:18px;
 	padding:0 !important;
-	background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/social_links.png);
+	background-image:url(../../Avada/images/social_links.png);
 }
 #sidebar .social_links .social li a.rss,.footer-area .social_links .social li a.rss,#slidingbar-area .social_links .social li a.rss{
 	background-position:-168px -1px;
@@ -1426,7 +1426,7 @@ body .post-content .image-extras .link-icon{margin-right:3px !important;}
 	color:#838383;
 	font-size:13px;
 	line-height:20px;
-	background:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/twitter-icon.png) no-repeat top left  !important;
+	background:url(../../Avada/images/twitter-icon.png) no-repeat top left  !important;
 	padding-left:45px !important;
 	padding-top:0px !important;
 }
@@ -1673,7 +1673,7 @@ body .post-content .image-extras .link-icon{margin-right:3px !important;}
 	opacity:1;
 }
 .es-nav-prev {
-	background-image: url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/arrow-bullet.png);
+	background-image: url(../../Avada/images/arrow-bullet.png);
 	background-position: center center;
     -webkit-transform:rotate(180deg);
     -moz-transform:rotate(180deg); 
@@ -1684,11 +1684,11 @@ body .post-content .image-extras .link-icon{margin-right:3px !important;}
 	left: 0;
 }
 .no-csstransforms .es-nav-prev{
-	background-image: url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/arrow-bullet-left.png);
+	background-image: url(../../Avada/images/arrow-bullet-left.png);
 	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
 }
 .es-nav-next {
-	background-image: url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/arrow-bullet.png);
+	background-image: url(../../Avada/images/arrow-bullet.png);
 	background-position: center center;
 	right: 0;
 }
@@ -2073,7 +2073,7 @@ ui-datepicker-header select {border: 1px solid #D2D2D2;}
 .side-nav li a{
 	border-bottom:1px solid #ededed !important;
 	display:block;
-	background:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/side_nav_bg.png) no-repeat top right;
+	background:url(../../Avada/images/side_nav_bg.png) no-repeat top right;
 	height:auto;
 	font-weight:normal !important;
 	font:14px/39px 'MuseoSlab500Regular', arial, helvetica, sans-serif !important;
@@ -2124,7 +2124,7 @@ h5.toggle.active a{
 	border-bottom:0;
 }
 h5.toggle span.arrow{
-	background:#333333 url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/toggle_plus.png) no-repeat center center;
+	background:#333333 url(../../Avada/images/toggle_plus.png) no-repeat center center;
 	display:block;
 	width:22px;
 	height:22px;
@@ -2133,7 +2133,7 @@ h5.toggle span.arrow{
 }
 h5.toggle.active span.arrow{
 	background-color:#9260a9;
-	background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/toggle_minus.png);
+	background-image:url(../../Avada/images/toggle_minus.png);
 }
 h5.toggle span.toggle-title{
 	float:left;
@@ -2407,7 +2407,7 @@ h5.toggle.active + .toggle-content{
 	width:100% !important;
 	padding:0 !important;
 	text-indent:15px !important;
-	background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/shortcode_sep.png) no-repeat center right;
+	background-image:url(../../Avada/images/shortcode_sep.png) no-repeat center right;
 }
 .shortcode-tabs .tab-hold .tabs li:last-child a{
 }
@@ -2483,47 +2483,47 @@ h5.toggle.active + .toggle-content{
 .person-author .social-icon a{
 	text-indent:-10000px;
 }
-.person-author .facebook {background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/facebook.png) !important; width:9px; height:17px;}
-.person-author .twitter {background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/twitter.png) !important; width:13px; height:16px;}
-.person-author .linkedin {background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/linkedin.png) !important; width:14px; height:13px;}
-.person-author .rss {background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/rss.png) !important; width:13px; height:13px;}
-.person-author .dribbble {background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/dribbble.png) !important; width:16px; height:16px;}
-.person-author .youtube {background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/youtube.png) !important; width:23px; height:25px;}
-.person-author .tf-pinterest {background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/pinterest.png) !important; width:16px; height:20px;}
-.person-author .vimeo {background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/vimeo.png) !important; width:18px; height:16px;}
-.person-author .flickr {background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/flickr.png) !important; width:25px; height:17px;}
-.person-author .tumblr {background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/tumblr.png) !important; width:15px; height:16px;}
-.person-author .google {background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/google.png) !important; width:21px; height:18px;}
-.person-author .digg {background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/digg.png) !important; width:21px; height:19px;}
-.person-author .blogger {background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/blogger.png) !important; width:16px; height:15px;}
-.person-author .skype {background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/skype.png) !important; width:19px; height: 19px;}
-.person-author .myspace {background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/myspace.png) !important; width:18px; height:18px;}
-.person-author .deviantart {background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/deviantart.png) !important; width:23px; height:18px;}
-.person-author .yahoo {background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/yahoo.png) !important; width:22px; height:14px;}
-.person-author .reddit {background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/reddit.png) !important; width:19px; height:15px;}
-.person-author .forrst {background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/forrst.png) !important; width:15px; height:19px;}
-.person-author .email {background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/mail.png) !important; margin-top:2px;width:20px; height:14px;}
+.person-author .facebook {background-image:url(../../Avada/images/facebook.png) !important; width:9px; height:17px;}
+.person-author .twitter {background-image:url(../../Avada/images/twitter.png) !important; width:13px; height:16px;}
+.person-author .linkedin {background-image:url(../../Avada/images/linkedin.png) !important; width:14px; height:13px;}
+.person-author .rss {background-image:url(../../Avada/images/rss.png) !important; width:13px; height:13px;}
+.person-author .dribbble {background-image:url(../../Avada/images/dribbble.png) !important; width:16px; height:16px;}
+.person-author .youtube {background-image:url(../../Avada/images/youtube.png) !important; width:23px; height:25px;}
+.person-author .tf-pinterest {background-image:url(../../Avada/images/pinterest.png) !important; width:16px; height:20px;}
+.person-author .vimeo {background-image:url(../../Avada/images/vimeo.png) !important; width:18px; height:16px;}
+.person-author .flickr {background-image:url(../../Avada/images/flickr.png) !important; width:25px; height:17px;}
+.person-author .tumblr {background-image:url(../../Avada/images/tumblr.png) !important; width:15px; height:16px;}
+.person-author .google {background-image:url(../../Avada/images/google.png) !important; width:21px; height:18px;}
+.person-author .digg {background-image:url(../../Avada/images/digg.png) !important; width:21px; height:19px;}
+.person-author .blogger {background-image:url(../../Avada/images/blogger.png) !important; width:16px; height:15px;}
+.person-author .skype {background-image:url(../../Avada/images/skype.png) !important; width:19px; height: 19px;}
+.person-author .myspace {background-image:url(../../Avada/images/myspace.png) !important; width:18px; height:18px;}
+.person-author .deviantart {background-image:url(../../Avada/images/deviantart.png) !important; width:23px; height:18px;}
+.person-author .yahoo {background-image:url(../../Avada/images/yahoo.png) !important; width:22px; height:14px;}
+.person-author .reddit {background-image:url(../../Avada/images/reddit.png) !important; width:19px; height:15px;}
+.person-author .forrst {background-image:url(../../Avada/images/forrst.png) !important; width:15px; height:19px;}
+.person-author .email {background-image:url(../../Avada/images/mail.png) !important; margin-top:2px;width:20px; height:14px;}
 
-.person-author-light .facebook {background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/white/facebook.png) !important;}
-.person-author-light .twitter {background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/white/twitter.png) !important;}
-.person-author-light .linkedin {background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/white/linkedin.png) !important;}
-.person-author-light .rss {background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/white/rss.png) !important;}
-.person-author-light .dribbble {background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/white/dribbble.png) !important;}
-.person-author-light .youtube {background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/white/youtube.png) !important;}
-.person-author-light .tf-pinterest {background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/white/pinterest.png) !important;}
-.person-author-light .vimeo {background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/white/vimeo.png) !important;}
-.person-author-light .flickr {background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/white/flickr.png) !important;}
-.person-author-light .tumblr {background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/white/tumblr.png) !important;}
-.person-author-light .google {background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/white/google.png) !important;}
-.person-author-light .digg {background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/white/digg.png) !important;}
-.person-author-light .blogger {background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/white/blogger.png) !important;}
-.person-author-light .skype {background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/white/skype.png) !important;}
-.person-author-light .myspace {background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/white/myspace.png) !important;}
-.person-author-light .deviantart {background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/white/deviantart.png) !important;}
-.person-author-light .yahoo {background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/white/yahoo.png) !important;}
-.person-author-light .reddit {background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/white/reddit.png) !important;}
-.person-author-light .forrst {background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/white/forrst.png) !important;}
-.person-author-light .email {background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/white/mail.png) !important;}
+.person-author-light .facebook {background-image:url(../../Avada/images/white/facebook.png) !important;}
+.person-author-light .twitter {background-image:url(../../Avada/images/white/twitter.png) !important;}
+.person-author-light .linkedin {background-image:url(../../Avada/images/white/linkedin.png) !important;}
+.person-author-light .rss {background-image:url(../../Avada/images/white/rss.png) !important;}
+.person-author-light .dribbble {background-image:url(../../Avada/images/white/dribbble.png) !important;}
+.person-author-light .youtube {background-image:url(../../Avada/images/white/youtube.png) !important;}
+.person-author-light .tf-pinterest {background-image:url(../../Avada/images/white/pinterest.png) !important;}
+.person-author-light .vimeo {background-image:url(../../Avada/images/white/vimeo.png) !important;}
+.person-author-light .flickr {background-image:url(../../Avada/images/white/flickr.png) !important;}
+.person-author-light .tumblr {background-image:url(../../Avada/images/white/tumblr.png) !important;}
+.person-author-light .google {background-image:url(../../Avada/images/white/google.png) !important;}
+.person-author-light .digg {background-image:url(../../Avada/images/white/digg.png) !important;}
+.person-author-light .blogger {background-image:url(../../Avada/images/white/blogger.png) !important;}
+.person-author-light .skype {background-image:url(../../Avada/images/white/skype.png) !important;}
+.person-author-light .myspace {background-image:url(../../Avada/images/white/myspace.png) !important;}
+.person-author-light .deviantart {background-image:url(../../Avada/images/white/deviantart.png) !important;}
+.person-author-light .yahoo {background-image:url(../../Avada/images/white/yahoo.png) !important;}
+.person-author-light .reddit {background-image:url(../../Avada/images/white/reddit.png) !important;}
+.person-author-light .forrst {background-image:url(../../Avada/images/white/forrst.png) !important;}
+.person-author-light .email {background-image:url(../../Avada/images/white/mail.png) !important;}
 
 .person-author .social-icon .popup p{
 	margin:0 !important;
@@ -2540,7 +2540,7 @@ h5.toggle.active + .toggle-content{
 }
 .post-content ul.arrow li:before{
 	display:inline-block;
-	background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/arrow-bullet.png);
+	background-image:url(../../Avada/images/arrow-bullet.png);
 	background-repeat:no-repeat;
 	background-position:center center;
 	background-color:#9260a9;
@@ -2990,26 +2990,26 @@ body #wrapper .gomapMarker{color:#333 !important;}
 	position:absolute;top:14px;right:25px;
 	display:block;
 	text-indent:-10000px;
-	background:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/x-icon.png) no-repeat top left;
+	background:url(../../Avada/images/x-icon.png) no-repeat top left;
 	width:12px;
 	height:12px;
 }
 .alert.general{
-	background:#ffffff url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/general-icon.png) no-repeat 25px 8px;
+	background:#ffffff url(../../Avada/images/general-icon.png) no-repeat 25px 8px;
 	border:1px solid #d7d6d6;
 }
 .alert.error{
-	background:#ffe9e9 url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/error-icon.png) no-repeat 25px 8px;
+	background:#ffe9e9 url(../../Avada/images/error-icon.png) no-repeat 25px 8px;
 	border:1px solid #e7a9a9;
 	color:#d04544;
 }
 .alert.success{
-	background:#e9f3d2 url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/success-icon.png) no-repeat 25px 8px;
+	background:#e9f3d2 url(../../Avada/images/success-icon.png) no-repeat 25px 8px;
 	border:1px solid #acd556;
 	color:#92b750;
 }
 .alert.notice{
-	background:#fbf6e3 url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/notice-icon.png) no-repeat 25px 8px;
+	background:#fbf6e3 url(../../Avada/images/notice-icon.png) no-repeat 25px 8px;
 	border:1px solid #e7d48d;
 	color:#cfb306;
 }
@@ -3040,7 +3040,7 @@ body #wrapper .gomapMarker{color:#333 !important;}
 	height:18px;
 	padding:0 !important;
 
-	background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/social_links.png);
+	background-image:url(../../Avada/images/social_links.png);
 }
 .social_links_shortcode .social li a.rss{
 	background-position:-168px -1px;
@@ -3215,7 +3215,7 @@ body #wrapper .gomapMarker{color:#333 !important;}
 }
 #sidebar ul.arrow li:before{
 	display:inline-block;
-	background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/arrow-bullet.png);
+	background-image:url(../../Avada/images/arrow-bullet.png);
 	background-repeat:no-repeat;
 	background-position:center center;
 	background-color:#9260a9;
@@ -3418,7 +3418,7 @@ body #wrapper .gomapMarker{color:#333 !important;}
 .footer-area .social-networks li, .footer-area .social-networks a,#slidingbar-area .social-networks li, #slidingbar-area .social-networks a{background-image:none;}
 .footer-area .social-networks li:first-child,#slidingbar-area .social-networks li:first-child{padding:0;}
 .footer-area .flexslider .slides > li,#slidingbar-area .flexslider .slides > li{padding-top:0; padding-bottom:0;}
-.chat-icon{display:inline-block; width:26px; height:19px; background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/speech-bubble.png); margin-top:9px;}
+.chat-icon{display:inline-block; width:26px; height:19px; background-image:url(../../Avada/images/speech-bubble.png); margin-top:9px;}
 
 /* WPML */
 #icl_lang_sel_widget {
@@ -3514,7 +3514,7 @@ h2.post-title{margin-bottom:5px !important;}
 .has-sidebar .grid-full-layout-4 .meta-info .alignright{width:100%;margin-left:0;float:none;}
 
 /* Timeline Layout */
-.timeline-layout{background:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/timeline_line.png) center center repeat-y;width:775px;margin:0 auto;padding-top:60px;position:relative;}
+.timeline-layout{background:url(../../Avada/images/timeline_line.png) center center repeat-y;width:775px;margin:0 auto;padding-top:60px;position:relative;}
 .timeline-icon{font-size:46px;color:#ebeaea;text-align:center;margin-bottom:-8px;}
 .timeline-layout .post{margin-bottom:40px; border:1px solid #EAEAEA;border-bottom-width:3px;}
 .timeline-layout .post .flexslider{border-bottom:1px solid #EAEAEA;margin-bottom:0 !important;}
@@ -3630,7 +3630,7 @@ h3.timeline-title{font-size:13px;font-weight:normal;border:1px solid #efeeee;hei
 .sep-double{height:6px;border-top:1px solid #e7e6e6;border-bottom:1px solid #e7e6e6;}
 .sep-dotted{border-bottom:2px dotted #e7e6e6;}
 .sep-dashed{border-bottom:2px dashed #e7e6e6;}
-.sep-shadow{background:transparent url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/sep-shadow.png) no-repeat top center;height:7px;width:100%;}
+.sep-shadow{background:transparent url(../../Avada/images/sep-shadow.png) no-repeat top center;height:7px;width:100%;}
 
 .tooltip-shortcode{position:relative;display:inline;cursor:pointer;color:#747474;}
 
@@ -3751,7 +3751,7 @@ ul.list-icon-plus li:before{
 .tabs-vertical{border:0px;}
 .tabs-vertical .tabset{border-left:1px solid #d3d3d3;border-top:1px solid #d3d3d3;border-bottom:1px solid #d3d3d3;width:15.7446808511%;float:left;height:auto;position:relative;left:1px;z-index:10;}
 .tabs-vertical .tab-hold .tabset li{float:none !important;width:auto;height:auto;border:0;background:none !important;}
-.tabs-vertical .tab-hold .tabset li a,.tabs-vertical .tab-hold .tabset li:last-child a{background:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/tab-bg.png) !important;border-bottom:0 !important;}
+.tabs-vertical .tab-hold .tabset li a,.tabs-vertical .tab-hold .tabset li:last-child a{background:url(../../Avada/images/tab-bg.png) !important;border-bottom:0 !important;}
 .tabs-vertical .tab-hold .tabset li a{width:auto !important;text-indent:0 !important;border-bottom:1px solid #d3d3d3 !important;height:auto !important;line-height:normal !important;padding:10px !important;}
 .tabs-vertical .tab-hold .tabset li a:hover{}
 .tabs-vertical .tab-hold .tabset li.active a{background:#fff !important;border-width:0px !important;border-style:solid !important;border-left-width:3px !important;height:auto !important;line-height:normal !important;}
@@ -3792,7 +3792,7 @@ ul.list-icon-plus li:before{
 	box-shadow: 2px 3px 7px rgba(0,0,0,.3); /* drop shadow */
 }
 .imageframe-bottomshadow .imageframe-shadow-left{
-	background:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/imageframe_shadow.png) no-repeat top left;
+	background:url(../../Avada/images/imageframe_shadow.png) no-repeat top left;
 	height:22px;
 	width:230px;
 	display:inline-block;
@@ -3801,7 +3801,7 @@ ul.list-icon-plus li:before{
 	left:0;
 }
 .imageframe-bottomshadow .imageframe-shadow-right{
-	background:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/imageframe_shadow.png) no-repeat top right;
+	background:url(../../Avada/images/imageframe_shadow.png) no-repeat top right;
 	height:22px;
 	width:230px;
 	display:inline-block;
@@ -3858,14 +3858,14 @@ table{
 
 /* Avada 3.0 Images */
 
-.error-image{background:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/404_image.png);width:311px;height:133px;margin-top:14px;}
+.error-image{background:url(../../Avada/images/404_image.png);width:311px;height:133px;margin-top:14px;}
 
 /* DD Slick */
 
 #wrapper .dd-container{font-size:12px !important;font-weight:normal !important;}
-#wrapper .dd-container .dd-select{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/mobile_menu_bg.png)!important;height:29px;line-height:29px;border-color:#dadada !important;border-radius:0px !important;text-align:left !important;}
+#wrapper .dd-container .dd-select{background-image:url(../../Avada/images/mobile_menu_bg.png)!important;height:29px;line-height:29px;border-color:#dadada !important;border-radius:0px !important;text-align:left !important;}
 #wrapper .dd-container .dd-selected{padding:0 15px;}
-#wrapper .dd-container .dd-pointer{border:0 !important;background:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/mobile_menu_icon.png) no-repeat top left;width:48px;height:29px;margin:0 !important;top:0px;right:5px;}
+#wrapper .dd-container .dd-pointer{border:0 !important;background:url(../../Avada/images/mobile_menu_icon.png) no-repeat top left;width:48px;height:29px;margin:0 !important;top:0px;right:5px;}
 #wrapper .dd-container label,#wrapper .dd-container a{color:#333333 !important;}
 #wrapper .dd-options{border-color:#dadada !important;box-shadow:none !important;position:relative !important;}
 #wrapper .dd-options li{float:none;height:auto;padding:0;line-height:normal;border-bottom:1px solid #dbdbdb !important;}
@@ -3942,7 +3942,7 @@ background:transparent;
 .woocommerce-message .wc-forward:before{font-family:'FontAwesome';content:"\f07a";margin-right:6px;}
 
 .woocommerce-error{list-style:none;padding:0;}
-.woocommerce-error li{margin-bottom:15px;background: url("file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/error-icon.png") no-repeat scroll 25px 8px #FFE9E9;border: 1px solid #E7A9A9;color: #D04544;padding: 8px;position: relative;text-align: center;}
+.woocommerce-error li{margin-bottom:15px;background: url("../../Avada/images/error-icon.png") no-repeat scroll 25px 8px #FFE9E9;border: 1px solid #E7A9A9;color: #D04544;padding: 8px;position: relative;text-align: center;}
 
 .woocommerce .single_add_to_cart_button,
 .woocommerce .shipping-calculator-form .button,
@@ -5911,7 +5911,7 @@ body.admin-bar #wrapper #slidingbar-area {
 	float:none;
 	display:block;
 	margin:0 0 22px;
-	background:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/logo-footer.gif) no-repeat;
+	background:url(../../Avada/images/logo-footer.gif) no-repeat;
 }
 #slidingbar-area  h3{
 	margin:0 0 28px;
@@ -5982,60 +5982,60 @@ a.pp_previous {
 }
 
 div.pp_default .pp_top,div.pp_default .pp_top .pp_middle,div.pp_default .pp_top .pp_left,div.pp_default .pp_top .pp_right,div.pp_default .pp_bottom,div.pp_default .pp_bottom .pp_left,div.pp_default .pp_bottom .pp_middle,div.pp_default .pp_bottom .pp_right{height:13px}
-div.pp_default .pp_top .pp_left{background:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/prettyPhoto/default/sprite.png) -78px -93px no-repeat}
-div.pp_default .pp_top .pp_middle{background:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/prettyPhoto/default/sprite_x.png) top left repeat-x}
-div.pp_default .pp_top .pp_right{background:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/prettyPhoto/default/sprite.png) -112px -93px no-repeat}
+div.pp_default .pp_top .pp_left{background:url(../../Avada/images/prettyPhoto/default/sprite.png) -78px -93px no-repeat}
+div.pp_default .pp_top .pp_middle{background:url(../../Avada/images/prettyPhoto/default/sprite_x.png) top left repeat-x}
+div.pp_default .pp_top .pp_right{background:url(../../Avada/images/prettyPhoto/default/sprite.png) -112px -93px no-repeat}
 div.pp_default .pp_content .ppt{color:#f8f8f8}
-div.pp_default .pp_content_container .pp_left{background:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/prettyPhoto/default/sprite_y.png) -7px 0 repeat-y;padding-left:13px}
-div.pp_default .pp_content_container .pp_right{background:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/prettyPhoto/default/sprite_y.png) top right repeat-y;padding-right:13px}
-div.pp_default .pp_next:hover{background:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/prettyPhoto/default/sprite_next.png) center right no-repeat;cursor:pointer}
-div.pp_default .pp_previous:hover{background:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/prettyPhoto/default/sprite_prev.png) center left no-repeat;cursor:pointer}
-div.pp_default .pp_expand{background:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/prettyPhoto/default/sprite.png) 0 -29px no-repeat;cursor:pointer;width:28px;height:28px}
-div.pp_default .pp_expand:hover{background:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/prettyPhoto/default/sprite.png) 0 -56px no-repeat;cursor:pointer}
-div.pp_default .pp_contract{background:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/prettyPhoto/default/sprite.png) 0 -84px no-repeat;cursor:pointer;width:28px;height:28px}
-div.pp_default .pp_contract:hover{background:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/prettyPhoto/default/sprite.png) 0 -113px no-repeat;cursor:pointer}
-div.pp_default .pp_close{width:30px;height:30px;background:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/prettyPhoto/default/sprite.png) 2px 1px no-repeat;cursor:pointer}
-div.pp_default .pp_gallery ul li a{background:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/prettyPhoto/default/default_thumb.png) center center #f8f8f8;border:1px solid #aaa}
+div.pp_default .pp_content_container .pp_left{background:url(../../Avada/images/prettyPhoto/default/sprite_y.png) -7px 0 repeat-y;padding-left:13px}
+div.pp_default .pp_content_container .pp_right{background:url(../../Avada/images/prettyPhoto/default/sprite_y.png) top right repeat-y;padding-right:13px}
+div.pp_default .pp_next:hover{background:url(../../Avada/images/prettyPhoto/default/sprite_next.png) center right no-repeat;cursor:pointer}
+div.pp_default .pp_previous:hover{background:url(../../Avada/images/prettyPhoto/default/sprite_prev.png) center left no-repeat;cursor:pointer}
+div.pp_default .pp_expand{background:url(../../Avada/images/prettyPhoto/default/sprite.png) 0 -29px no-repeat;cursor:pointer;width:28px;height:28px}
+div.pp_default .pp_expand:hover{background:url(../../Avada/images/prettyPhoto/default/sprite.png) 0 -56px no-repeat;cursor:pointer}
+div.pp_default .pp_contract{background:url(../../Avada/images/prettyPhoto/default/sprite.png) 0 -84px no-repeat;cursor:pointer;width:28px;height:28px}
+div.pp_default .pp_contract:hover{background:url(../../Avada/images/prettyPhoto/default/sprite.png) 0 -113px no-repeat;cursor:pointer}
+div.pp_default .pp_close{width:30px;height:30px;background:url(../../Avada/images/prettyPhoto/default/sprite.png) 2px 1px no-repeat;cursor:pointer}
+div.pp_default .pp_gallery ul li a{background:url(../../Avada/images/prettyPhoto/default/default_thumb.png) center center #f8f8f8;border:1px solid #aaa}
 div.pp_default .pp_social{margin-top:7px}
 div.pp_default .pp_gallery a.pp_arrow_previous,div.pp_default .pp_gallery a.pp_arrow_next{position:static;left:auto}
-div.pp_default .pp_nav .pp_play,div.pp_default .pp_nav .pp_pause{background:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/prettyPhoto/default/sprite.png) -51px 1px no-repeat;height:30px;width:30px}
+div.pp_default .pp_nav .pp_play,div.pp_default .pp_nav .pp_pause{background:url(../../Avada/images/prettyPhoto/default/sprite.png) -51px 1px no-repeat;height:30px;width:30px}
 div.pp_default .pp_nav .pp_pause{background-position:-51px -29px}
-div.pp_default a.pp_arrow_previous,div.pp_default a.pp_arrow_next{background:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/prettyPhoto/default/sprite.png) -31px -3px no-repeat;height:20px;width:20px;margin:4px 0 0}
+div.pp_default a.pp_arrow_previous,div.pp_default a.pp_arrow_next{background:url(../../Avada/images/prettyPhoto/default/sprite.png) -31px -3px no-repeat;height:20px;width:20px;margin:4px 0 0}
 div.pp_default a.pp_arrow_next{left:52px;background-position:-82px -3px}
 div.pp_default .pp_content_container .pp_details{margin-top:5px}
 div.pp_default .pp_nav{clear:none;height:30px;width:110px;position:relative}
 div.pp_default .pp_nav .currentTextHolder{font-family:Georgia;font-style:italic;color:#999;font-size:11px;left:75px;line-height:25px;position:absolute;top:2px;margin:0;padding:0 0 0 10px}
 div.pp_default .pp_close:hover,div.pp_default .pp_nav .pp_play:hover,div.pp_default .pp_nav .pp_pause:hover,div.pp_default .pp_arrow_next:hover,div.pp_default .pp_arrow_previous:hover{opacity:0.7}
 div.pp_default .pp_description{font-size:11px;font-weight:700;line-height:14px;margin:5px 50px 5px 0}
-div.pp_default .pp_bottom .pp_left{background:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/prettyPhoto/default/sprite.png) -78px -127px no-repeat}
-div.pp_default .pp_bottom .pp_middle{background:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/prettyPhoto/default/sprite_x.png) bottom left repeat-x}
-div.pp_default .pp_bottom .pp_right{background:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/prettyPhoto/default/sprite.png) -112px -127px no-repeat}
-div.pp_default .pp_loaderIcon{background:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/prettyPhoto/default/loader.gif) center center no-repeat}
-div.facebook .pp_top .pp_left{background:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/prettyPhoto/facebook/sprite.png) -88px -53px no-repeat}
-div.facebook .pp_top .pp_middle{background:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/prettyPhoto/facebook/contentPatternTop.png) top left repeat-x}
-div.facebook .pp_top .pp_right{background:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/prettyPhoto/facebook/sprite.png) -110px -53px no-repeat}
-div.facebook .pp_content_container .pp_left{background:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/prettyPhoto/facebook/contentPatternLeft.png) top left repeat-y}
-div.facebook .pp_content_container .pp_right{background:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/prettyPhoto/facebook/contentPatternRight.png) top right repeat-y}
-div.facebook .pp_expand{background:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/prettyPhoto/facebook/sprite.png) -31px -26px no-repeat;cursor:pointer}
-div.facebook .pp_expand:hover{background:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/prettyPhoto/facebook/sprite.png) -31px -47px no-repeat;cursor:pointer}
-div.facebook .pp_contract{background:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/prettyPhoto/facebook/sprite.png) 0 -26px no-repeat;cursor:pointer}
-div.facebook .pp_contract:hover{background:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/prettyPhoto/facebook/sprite.png) 0 -47px no-repeat;cursor:pointer}
-div.facebook .pp_close{width:22px;height:22px;background:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/prettyPhoto/facebook/sprite.png) -1px -1px no-repeat;cursor:pointer}
+div.pp_default .pp_bottom .pp_left{background:url(../../Avada/images/prettyPhoto/default/sprite.png) -78px -127px no-repeat}
+div.pp_default .pp_bottom .pp_middle{background:url(../../Avada/images/prettyPhoto/default/sprite_x.png) bottom left repeat-x}
+div.pp_default .pp_bottom .pp_right{background:url(../../Avada/images/prettyPhoto/default/sprite.png) -112px -127px no-repeat}
+div.pp_default .pp_loaderIcon{background:url(../../Avada/images/prettyPhoto/default/loader.gif) center center no-repeat}
+div.facebook .pp_top .pp_left{background:url(../../Avada/images/prettyPhoto/facebook/sprite.png) -88px -53px no-repeat}
+div.facebook .pp_top .pp_middle{background:url(../../Avada/images/prettyPhoto/facebook/contentPatternTop.png) top left repeat-x}
+div.facebook .pp_top .pp_right{background:url(../../Avada/images/prettyPhoto/facebook/sprite.png) -110px -53px no-repeat}
+div.facebook .pp_content_container .pp_left{background:url(../../Avada/images/prettyPhoto/facebook/contentPatternLeft.png) top left repeat-y}
+div.facebook .pp_content_container .pp_right{background:url(../../Avada/images/prettyPhoto/facebook/contentPatternRight.png) top right repeat-y}
+div.facebook .pp_expand{background:url(../../Avada/images/prettyPhoto/facebook/sprite.png) -31px -26px no-repeat;cursor:pointer}
+div.facebook .pp_expand:hover{background:url(../../Avada/images/prettyPhoto/facebook/sprite.png) -31px -47px no-repeat;cursor:pointer}
+div.facebook .pp_contract{background:url(../../Avada/images/prettyPhoto/facebook/sprite.png) 0 -26px no-repeat;cursor:pointer}
+div.facebook .pp_contract:hover{background:url(../../Avada/images/prettyPhoto/facebook/sprite.png) 0 -47px no-repeat;cursor:pointer}
+div.facebook .pp_close{width:22px;height:22px;background:url(../../Avada/images/prettyPhoto/facebook/sprite.png) -1px -1px no-repeat;cursor:pointer}
 div.facebook .pp_description{margin:0 37px 0 0}
-div.facebook .pp_loaderIcon{background:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/prettyPhoto/facebook/loader.gif) center center no-repeat}
-div.facebook .pp_arrow_previous{background:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/prettyPhoto/facebook/sprite.png) 0 -71px no-repeat;height:22px;margin-top:0;width:22px}
+div.facebook .pp_loaderIcon{background:url(../../Avada/images/prettyPhoto/facebook/loader.gif) center center no-repeat}
+div.facebook .pp_arrow_previous{background:url(../../Avada/images/prettyPhoto/facebook/sprite.png) 0 -71px no-repeat;height:22px;margin-top:0;width:22px}
 div.facebook .pp_arrow_previous.disabled{background-position:0 -96px;cursor:default}
-div.facebook .pp_arrow_next{background:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/prettyPhoto/facebook/sprite.png) -32px -71px no-repeat;height:22px;margin-top:0;width:22px}
+div.facebook .pp_arrow_next{background:url(../../Avada/images/prettyPhoto/facebook/sprite.png) -32px -71px no-repeat;height:22px;margin-top:0;width:22px}
 div.facebook .pp_arrow_next.disabled{background-position:-32px -96px;cursor:default}
 div.facebook .pp_nav{margin-top:0}
 div.facebook .pp_nav p{font-size:15px;padding:0 3px 0 4px}
-div.facebook .pp_nav .pp_play{background:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/prettyPhoto/facebook/sprite.png) -1px -123px no-repeat;height:22px;width:22px}
-div.facebook .pp_nav .pp_pause{background:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/prettyPhoto/facebook/sprite.png) -32px -123px no-repeat;height:22px;width:22px}
-div.facebook .pp_next:hover{background:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/prettyPhoto/facebook/btnNext.png) center right no-repeat;cursor:pointer}
-div.facebook .pp_previous:hover{background:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/prettyPhoto/facebook/btnPrevious.png) center left no-repeat;cursor:pointer}
-div.facebook .pp_bottom .pp_left{background:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/prettyPhoto/facebook/sprite.png) -88px -80px no-repeat}
-div.facebook .pp_bottom .pp_middle{background:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/prettyPhoto/facebook/contentPatternBottom.png) top left repeat-x}
-div.facebook .pp_bottom .pp_right{background:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/prettyPhoto/facebook/sprite.png) -110px -80px no-repeat}
+div.facebook .pp_nav .pp_play{background:url(../../Avada/images/prettyPhoto/facebook/sprite.png) -1px -123px no-repeat;height:22px;width:22px}
+div.facebook .pp_nav .pp_pause{background:url(../../Avada/images/prettyPhoto/facebook/sprite.png) -32px -123px no-repeat;height:22px;width:22px}
+div.facebook .pp_next:hover{background:url(../../Avada/images/prettyPhoto/facebook/btnNext.png) center right no-repeat;cursor:pointer}
+div.facebook .pp_previous:hover{background:url(../../Avada/images/prettyPhoto/facebook/btnPrevious.png) center left no-repeat;cursor:pointer}
+div.facebook .pp_bottom .pp_left{background:url(../../Avada/images/prettyPhoto/facebook/sprite.png) -88px -80px no-repeat}
+div.facebook .pp_bottom .pp_middle{background:url(../../Avada/images/prettyPhoto/facebook/contentPatternBottom.png) top left repeat-x}
+div.facebook .pp_bottom .pp_right{background:url(../../Avada/images/prettyPhoto/facebook/sprite.png) -110px -80px no-repeat}
 div.pp_pic_holder a:focus{outline:none}
 div.pp_overlay{background:#000;display:none;left:0;position:absolute;top:0;width:100%;z-index:110000;}
 div.pp_pic_holder{display:none;position:absolute;width:100px;z-index:120000;}
@@ -6060,7 +6060,7 @@ a.pp_arrow_previous,a.pp_arrow_next{display:block;float:left;height:15px;margin-
 .pp_gallery ul a{border:1px rgba(0,0,0,0.5) solid;display:block;float:left;height:33px;overflow:hidden}
 .pp_gallery ul a img{border:0}
 .pp_gallery li{display:block;float:left;margin:0 5px 0 0;padding:0}
-.pp_gallery li.default a{background:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/prettyPhoto/facebook/default_thumbnail.gif) 0 0 no-repeat;display:block;height:33px;width:50px}
+.pp_gallery li.default a{background:url(../../Avada/images/prettyPhoto/facebook/default_thumbnail.gif) 0 0 no-repeat;display:block;height:33px;width:50px}
 .pp_gallery .pp_arrow_previous,.pp_gallery .pp_arrow_next{margin-top:7px!important}
 a.pp_expand,a.pp_contract{cursor:pointer;display:none;height:20px;position:absolute;right:30px;text-indent:-10000px;top:10px;width:20px;z-index:20000}
 a.pp_close{position:absolute;right:0;top:0;display:block;line-height:22px;text-indent:-10000px}
@@ -6141,12 +6141,12 @@ html[xmlns] .flexslider .slides {display: block;}
 .no-opacity .flexslider:hover .flex-direction-nav a{display:block;}
 
 .flex-direction-nav .flex-next {
-	background-image: url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/arrow-bullet.png);
+	background-image: url(../../Avada/images/arrow-bullet.png);
 	background-position: center center;
 	right: 0;
 }
 .flex-direction-nav .flex-prev {
-	background-image: url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/arrow-bullet.png);
+	background-image: url(../../Avada/images/arrow-bullet.png);
 	background-position: center center;
     -webkit-transform:rotate(180deg);
     -moz-transform:rotate(180deg); 
@@ -6159,11 +6159,11 @@ html[xmlns] .flexslider .slides {display: block;}
 	background-color:#000;
 }
 .no-csstransforms .flex-direction-nav .flex-prev{
-	background-image: url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/arrow-bullet-left.png) !important;
+	background-image: url(../../Avada/images/arrow-bullet-left.png) !important;
 	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
 }
 .no-csstransforms .main-flex .flex-direction-nav .flex-prev{
-	background-image: url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/ls_prev.png) !important;
+	background-image: url(../../Avada/images/ls_prev.png) !important;
 	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
 }
 .flexslider:hover .flex-next {opacity: 0.8; right: 0px;}
@@ -6225,7 +6225,7 @@ html[xmlns] .flexslider .slides {display: block;}
 }
 #layerslider-wrapper .ls-shadow-top{
 	position:absolute;
-	background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/shadow-top.png);
+	background-image:url(../../Avada/images/shadow-top.png);
 	background-repeat:no-repeat;
 	background-position:top center;
 	height:42px;
@@ -6235,7 +6235,7 @@ html[xmlns] .flexslider .slides {display: block;}
 }
 #layerslider-wrapper .ls-shadow-bottom{
 	position:absolute;
-	background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/shadow-bottom.png);
+	background-image:url(../../Avada/images/shadow-bottom.png);
 	background-repeat:no-repeat;
 	background-position:bottom center;
 	height:32px;
@@ -6275,14 +6275,14 @@ html[xmlns] .flexslider .slides {display: block;}
 	display: block;
 }
 .ls-avada .ls-nav-prev,.products-slider .es-nav span.es-nav-prev {
-	background-image: url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/ls_prev.png) !important;
+	background-image: url(../../Avada/images/ls_prev.png) !important;
 	background-position: 19px 19px  !important;
 	left: 0 !important;
 	margin-left:0 !important;
 	z-index:10;
 }
 .ls-avada .ls-nav-next,.products-slider .es-nav span.es-nav-next {
-	background-image: url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/ls_next.png)  !important;
+	background-image: url(../../Avada/images/ls_next.png)  !important;
 	background-position: 29px 19px  !important;
 	right: 0  !important;
 	margin-left:0 !important;
@@ -6295,7 +6295,7 @@ html[xmlns] .flexslider .slides {display: block;}
 	margin-top: -25px;
 }
 .ls-avada .ls-playvideo{
-	background-image: url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/skin.png);	
+	background-image: url(../../Avada/images/skin.png);	
 }
 .ls-avada .ls-playvideo {
 	background-position: -300px -150px;
@@ -6412,14 +6412,14 @@ html[xmlns] .flexslider .slides {display: block;}
 	display: block !important;
 }
 .wooslider .wooslider-prev, .main-flex .flex-prev {
-	background-image: url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/ls_prev.png) !important;
+	background-image: url(../../Avada/images/ls_prev.png) !important;
 	background-position: 19px 19px !important;
 	left: 0 !important;
     padding:0 !important;
     border:0 !important;
 }
 .wooslider .wooslider-next, .main-flex .flex-next {
-	background-image: url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/ls_next.png) !important;
+	background-image: url(../../Avada/images/ls_next.png) !important;
 	background-position: 29px 19px !important;
 	right: 0 !important;
 	padding:0 !important;
@@ -6442,11 +6442,11 @@ html[xmlns] .flexslider .slides {display: block;}
 	height:29px !important;
 }
 #sidebar .wooslider-prev,.footer-area .wooslider-prev,.post-content .wooslider .wooslider-prev{
-	background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/arrow-bullet-left.png) !important;
+	background-image:url(../../Avada/images/arrow-bullet-left.png) !important;
 	background-position:center center !important;
 }
 #sidebar .wooslider-next,.footer-area .wooslider-next,.post-content .wooslider .wooslider-next{
-	background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/arrow-bullet.png) !important;
+	background-image:url(../../Avada/images/arrow-bullet.png) !important;
 	background-position:center center !important;
 }
 #sidebar .wooslider .wooslider-control-nav,.footer-area .wooslider .wooslider-control-nav{bottom:5px !important;}
@@ -6643,7 +6643,7 @@ body #sidebar .button { padding-left: 15px !important; }
 /* responsive menu */
 .mobile-nav-holder, .mobile-topnav-holder { display: none; }
 .mobile-nav-holder .mobile-selector, .mobile-topnav-holder .mobile-selector {
-    background-image: url("file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/mobile_menu_bg.png");
+    background-image: url("../../Avada/images/mobile_menu_bg.png");
     border: 1px solid #DADADA;
     line-height:29px;
     width:100%;
@@ -6762,7 +6762,7 @@ body #sidebar .button { padding-left: 15px !important; }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 13/10), only screen and (min-resolution: 120dpi) {
 	#jtwt .jtwt_tweet {
-		background-image: url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/twitter-icon@2x.png) !important;
+		background-image: url(../../Avada/images/twitter-icon@2x.png) !important;
 		-webkit-background-size:31px 23px !important;
 		   -moz-background-size:31px 23px !important;
 		     -o-background-size:31px 23px !important;
@@ -6770,7 +6770,7 @@ body #sidebar .button { padding-left: 15px !important; }
 	}
 
 	.review.male blockquote div .company-name {
-		background-image: url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/ico-user@2x.png) !important;
+		background-image: url(../../Avada/images/ico-user@2x.png) !important;
 		-webkit-background-size:26px 29px;
 		   -moz-background-size:26px 29px;
 		     -o-background-size:26px 29px;
@@ -6778,7 +6778,7 @@ body #sidebar .button { padding-left: 15px !important; }
 	}
 
 	.review.female blockquote div .company-name {
-		background-image: url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/ico-user-girl@2x.png) !important;
+		background-image: url(../../Avada/images/ico-user-girl@2x.png) !important;
 		-webkit-background-size:26px 29px;
 		   -moz-background-size:26px 29px;
 		     -o-background-size:26px 29px;
@@ -6786,7 +6786,7 @@ body #sidebar .button { padding-left: 15px !important; }
 	}
 
 	.flex-direction-nav .flex-prev, .flex-direction-nav .flex-next, .post-content ul.arrow li::before, .es-nav-next, .es-nav-prev {
-		background-image: url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/arrow-bullet@2x.png) !important;
+		background-image: url(../../Avada/images/arrow-bullet@2x.png) !important;
 		-webkit-background-size:5px 8px;
 		   -moz-background-size:5px 8px;
 		     -o-background-size:5px 8px;
@@ -6794,7 +6794,7 @@ body #sidebar .button { padding-left: 15px !important; }
 	}
 
 	#sidebar .wooslider .wooslider-next, .footer-area .wooslider .wooslider-next,.post-content .wooslider .wooslider-next {
-		background-image: url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/arrow-bullet@2x.png) !important;
+		background-image: url(../../Avada/images/arrow-bullet@2x.png) !important;
 		-webkit-background-size:5px 8px !important;
 		   -moz-background-size:5px 8px !important;
 		     -o-background-size:5px 8px !important;
@@ -6802,7 +6802,7 @@ body #sidebar .button { padding-left: 15px !important; }
 	}
 
 	#sidebar .wooslider .wooslider-prev, .footer-area .wooslider .wooslider-prev,.post-content .wooslider .wooslider-prev {
-		background-image: url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/arrow-bullet@2x.png) !important;
+		background-image: url(../../Avada/images/arrow-bullet@2x.png) !important;
 		-webkit-background-size:5px 8px !important;
 		   -moz-background-size:5px 8px !important;
 		     -o-background-size:5px 8px !important;
@@ -6817,7 +6817,7 @@ body #sidebar .button { padding-left: 15px !important; }
 
 	.ls-avada .ls-nav-prev, .wooslider .wooslider-prev, .main-flex .flex-prev,
 	.products-slider .es-nav span.es-nav-prev {
-		background-image: url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/ls_prev@2x.png) !important;
+		background-image: url(../../Avada/images/ls_prev@2x.png) !important;
 		-webkit-background-size:12px 24px !important;
 		   -moz-background-size:12px 24px !important;
 		     -o-background-size:12px 24px !important;
@@ -6826,7 +6826,7 @@ body #sidebar .button { padding-left: 15px !important; }
 
 	.ls-avada .ls-nav-next, .wooslider .wooslider-next, .main-flex .flex-next,
 	.products-slider .es-nav span.es-nav-next  {
-		background-image: url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/ls_next@2x.png) !important;
+		background-image: url(../../Avada/images/ls_next@2x.png) !important;
 		-webkit-background-size:12px 24px !important;
 		   -moz-background-size:12px 24px !important;
 		     -o-background-size:12px 24px !important;
@@ -6834,7 +6834,7 @@ body #sidebar .button { padding-left: 15px !important; }
 	}
 
 	h5.toggle span.arrow {
-		background-image: url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/toggle_plus@2x.png) !important;
+		background-image: url(../../Avada/images/toggle_plus@2x.png) !important;
 		-webkit-background-size:7px 7px;
 		   -moz-background-size:7px 7px;
 		     -o-background-size:7px 7px;
@@ -6842,7 +6842,7 @@ body #sidebar .button { padding-left: 15px !important; }
 	}
 
 	h5.toggle.active span.arrow {
-		background-image: url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/toggle_minus@2x.png) !important;
+		background-image: url(../../Avada/images/toggle_minus@2x.png) !important;
 		-webkit-background-size:7px 1px;
 		   -moz-background-size:7px 1px;
 		     -o-background-size:7px 1px;
@@ -6850,7 +6850,7 @@ body #sidebar .button { padding-left: 15px !important; }
 	}
 
 	.alert.general {
-		background-image: url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/general-icon@2x.png) !important;
+		background-image: url(../../Avada/images/general-icon@2x.png) !important;
 		-webkit-background-size:19px 20px;
 		   -moz-background-size:19px 20px;
 		     -o-background-size:19px 20px;
@@ -6858,7 +6858,7 @@ body #sidebar .button { padding-left: 15px !important; }
 	}
 
 	.alert.error {
-		background-image: url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/error-icon@2x.png) !important;
+		background-image: url(../../Avada/images/error-icon@2x.png) !important;
 		-webkit-background-size:24px 19px;
 		   -moz-background-size:24px 19px;
 		     -o-background-size:24px 19px;
@@ -6866,7 +6866,7 @@ body #sidebar .button { padding-left: 15px !important; }
 	}
 
 	.alert.success {
-		background-image: url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/success-icon@2x.png) !important;
+		background-image: url(../../Avada/images/success-icon@2x.png) !important;
 		-webkit-background-size:19px 23px;
 		   -moz-background-size:19px 23px;
 		     -o-background-size:19px 23px;
@@ -6874,7 +6874,7 @@ body #sidebar .button { padding-left: 15px !important; }
 	}
 
 	.alert.notice {
-		background-image: url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/notice-icon@2x.png) !important;
+		background-image: url(../../Avada/images/notice-icon@2x.png) !important;
 		-webkit-background-size:22px 22px;
 		   -moz-background-size:22px 22px;
 		     -o-background-size:22px 22px;
@@ -6882,250 +6882,250 @@ body #sidebar .button { padding-left: 15px !important; }
 	}
 
 	.alert .toggle-alert {
-		background-image: url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/x-icon@2x.png) !important;
+		background-image: url(../../Avada/images/x-icon@2x.png) !important;
 		-webkit-background-size:12px 11px;
 		   -moz-background-size:12px 11px;
 		     -o-background-size:12px 11px;
 		        background-size:12px 11px;		
 	}
 
-	.social-networks .facebook a,.person-author .facebook{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/facebook@2x.png) !important;
+	.social-networks .facebook a,.person-author .facebook{background-image:url(../../Avada/images/facebook@2x.png) !important;
 		-webkit-background-size:9px 17px;
 		   -moz-background-size:9px 17px;
 		     -o-background-size:9px 17px;
 		        background-size:9px 17px;
 	}
-	.social-networks .twitter a,.person-author .twitter{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/twitter@2x.png) !important;
+	.social-networks .twitter a,.person-author .twitter{background-image:url(../../Avada/images/twitter@2x.png) !important;
 		-webkit-background-size:13px 16px;
 		   -moz-background-size:13px 16px;
 		     -o-background-size:13px 16px;
 		        background-size:13px 16px;
 	}
-	.social-networks .linkedin a,.person-author .linkedin{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/linkedin@2x.png) !important;
+	.social-networks .linkedin a,.person-author .linkedin{background-image:url(../../Avada/images/linkedin@2x.png) !important;
 		-webkit-background-size:14px 13px;
 		   -moz-background-size:14px 13px;
 		     -o-background-size:14px 13px;
 		        background-size:14px 13px;
 	}
-	.social-networks .rss a,.person-author .rss{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/rss@2x.png) !important;
+	.social-networks .rss a,.person-author .rss{background-image:url(../../Avada/images/rss@2x.png) !important;
 		-webkit-background-size:13px 13px;
 		   -moz-background-size:13px 13px;
 		     -o-background-size:13px 13px;
 		        background-size:13px 13px;
 	}
-	.social-networks .dribbble a,.person-author .dribbble{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/dribbble@2x.png) !important;
+	.social-networks .dribbble a,.person-author .dribbble{background-image:url(../../Avada/images/dribbble@2x.png) !important;
 		-webkit-background-size:16px 16px;
 		   -moz-background-size:16px 16px;
 		     -o-background-size:16px 16px;
 		        background-size:16px 16px;
 	}
-	.social-networks .youtube a,.person-author .youtube{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/youtube@2x.png) !important;
+	.social-networks .youtube a,.person-author .youtube{background-image:url(../../Avada/images/youtube@2x.png) !important;
 		-webkit-background-size:23px 25px;
 		   -moz-background-size:23px 25px;
 		     -o-background-size:23px 25px;
 		        background-size:23px 25px;
 	}
-	.social-networks .tf-pinterest a,.person-author .tf-pinterest{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/pinterest@2x.png) !important;
+	.social-networks .tf-pinterest a,.person-author .tf-pinterest{background-image:url(../../Avada/images/pinterest@2x.png) !important;
 		-webkit-background-size:16px 20px;
 		   -moz-background-size:16px 20px;
 		     -o-background-size:16px 20px;
 		        background-size:16px 20px;
 	}
-	.social-networks .vimeo a,.person-author .vimeo{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/vimeo@2x.png) !important;
+	.social-networks .vimeo a,.person-author .vimeo{background-image:url(../../Avada/images/vimeo@2x.png) !important;
 		-webkit-background-size:18px 16px;
 		   -moz-background-size:18px 16px;
 		     -o-background-size:18px 16px;
 		        background-size:18px 16px;
 	}
-	.social-networks .flickr a,.person-author .flickr{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/flickr@2x.png) !important;
+	.social-networks .flickr a,.person-author .flickr{background-image:url(../../Avada/images/flickr@2x.png) !important;
 		-webkit-background-size:25px 17px;
 		   -moz-background-size:25px 17px;
 		     -o-background-size:25px 17px;
 		        background-size:25px 17px;
 	}
-	.social-networks .tumblr a,.person-author .tumblr{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/tumblr@2x.png) !important;
+	.social-networks .tumblr a,.person-author .tumblr{background-image:url(../../Avada/images/tumblr@2x.png) !important;
 		-webkit-background-size:15px 16px;
 		   -moz-background-size:15px 16px;
 		     -o-background-size:15px 16px;
 		        background-size:15px 16px;
 	}
-	.social-networks .google a,.person-author .google{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/google@2x.png) !important;
+	.social-networks .google a,.person-author .google{background-image:url(../../Avada/images/google@2x.png) !important;
 		-webkit-background-size:21px 18px;
 		   -moz-background-size:21px 18px;
 		     -o-background-size:21px 18px;
 		        background-size:21px 18px;
 	}
-	.social-networks .digg a,.person-author .digg{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/digg@2x.png) !important;
+	.social-networks .digg a,.person-author .digg{background-image:url(../../Avada/images/digg@2x.png) !important;
 		-webkit-background-size:21px 19px;
 		   -moz-background-size:21px 19px;
 		     -o-background-size:21px 19px;
 		        background-size:21px 19px;
 	}
-	.social-networks .blogger a,.person-author .blogger{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/blogger@2x.png) !important;
+	.social-networks .blogger a,.person-author .blogger{background-image:url(../../Avada/images/blogger@2x.png) !important;
 		-webkit-background-size:16px 15px;
 		   -moz-background-size:16px 15px;
 		     -o-background-size:16px 15px;
 		        background-size:16px 15px;
 	}
-	.social-networks .skype a,.person-author .skype{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/skype@2x.png) !important;
+	.social-networks .skype a,.person-author .skype{background-image:url(../../Avada/images/skype@2x.png) !important;
 		-webkit-background-size:19px 19px;
 		   -moz-background-size:19px 19px;
 		     -o-background-size:19px 19px;
 		        background-size:19px 19px;
 	}
-	.social-networks .myspace a,.person-author .myspace{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/myspace@2x.png) !important;
+	.social-networks .myspace a,.person-author .myspace{background-image:url(../../Avada/images/myspace@2x.png) !important;
 		-webkit-background-size:18px 18px;
 		   -moz-background-size:18px 18px;
 		     -o-background-size:18px 18px;
 		        background-size:18px 18px;
 	}
-	.social-networks .deviantart a,.person-author .deviantart{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/deviantart@2x.png) !important;
+	.social-networks .deviantart a,.person-author .deviantart{background-image:url(../../Avada/images/deviantart@2x.png) !important;
 		-webkit-background-size:23px 18px;
 		   -moz-background-size:23px 18px;
 		     -o-background-size:23px 18px;
 		        background-size:23px 18px;
 	}
-	.social-networks .yahoo a,.person-author .yahoo{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/yahoo@2x.png) !important;
+	.social-networks .yahoo a,.person-author .yahoo{background-image:url(../../Avada/images/yahoo@2x.png) !important;
 		-webkit-background-size:22px 14px;
 		   -moz-background-size:22px 14px;
 		     -o-background-size:22px 14px;
 		        background-size:22px 14px;
 	}
-	.social-networks .reddit a,.person-author .reddit{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/reddit@2x.png) !important;
+	.social-networks .reddit a,.person-author .reddit{background-image:url(../../Avada/images/reddit@2x.png) !important;
 		-webkit-background-size:19px 15px;
 		   -moz-background-size:19px 15px;
 		     -o-background-size:19px 15px;
 		        background-size:19px 15px;
 	}
-	.social-networks .forrst a,.person-author .forrst{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/forrst@2x.png) !important;
+	.social-networks .forrst a,.person-author .forrst{background-image:url(../../Avada/images/forrst@2x.png) !important;
 		-webkit-background-size:15px 19px;
 		   -moz-background-size:15px 19px;
 		     -o-background-size:15px 19px;
 		        background-size:15px 19px;
 	}
-	.social-networks .email a,.person-author .email{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/mail@2x.png) !important;
+	.social-networks .email a,.person-author .email{background-image:url(../../Avada/images/mail@2x.png) !important;
 		-webkit-background-size:20px 14px;
 		   -moz-background-size:20px 14px;
 		     -o-background-size:20px 14px;
 		        background-size:20px 14px;
 	}
 
-	.social-networks-light .facebook a,.person-author-light .facebook{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/white/facebook@2x.png) !important;
+	.social-networks-light .facebook a,.person-author-light .facebook{background-image:url(../../Avada/images/white/facebook@2x.png) !important;
 		-webkit-background-size:9px 17px;
 		   -moz-background-size:9px 17px;
 		     -o-background-size:9px 17px;
 		        background-size:9px 17px;
 	}
-	.social-networks-light .twitter a,.person-author-light .twitter{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/white/twitter@2x.png) !important;
+	.social-networks-light .twitter a,.person-author-light .twitter{background-image:url(../../Avada/images/white/twitter@2x.png) !important;
 		-webkit-background-size:13px 16px;
 		   -moz-background-size:13px 16px;
 		     -o-background-size:13px 16px;
 		        background-size:13px 16px;
 	}
-	.social-networks-light .linkedin a,.person-author-light .linkedin{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/white/linkedin@2x.png) !important;
+	.social-networks-light .linkedin a,.person-author-light .linkedin{background-image:url(../../Avada/images/white/linkedin@2x.png) !important;
 		-webkit-background-size:14px 13px;
 		   -moz-background-size:14px 13px;
 		     -o-background-size:14px 13px;
 		        background-size:14px 13px;
 	}
-	.social-networks-light .rss a,.person-author-light .rss{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/white/rss@2x.png) !important;
+	.social-networks-light .rss a,.person-author-light .rss{background-image:url(../../Avada/images/white/rss@2x.png) !important;
 		-webkit-background-size:13px 13px;
 		   -moz-background-size:13px 13px;
 		     -o-background-size:13px 13px;
 		        background-size:13px 13px;
 	}
-	.social-networks-light .dribbble a,.person-author-light .dribbble{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/white/dribbble@2x.png) !important;
+	.social-networks-light .dribbble a,.person-author-light .dribbble{background-image:url(../../Avada/images/white/dribbble@2x.png) !important;
 		-webkit-background-size:16px 16px;
 		   -moz-background-size:16px 16px;
 		     -o-background-size:16px 16px;
 		        background-size:16px 16px;
 	}
-	.social-networks-light .youtube a,.person-author-light .youtube{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/white/youtube@2x.png) !important;
+	.social-networks-light .youtube a,.person-author-light .youtube{background-image:url(../../Avada/images/white/youtube@2x.png) !important;
 		-webkit-background-size:23px 25px;
 		   -moz-background-size:23px 25px;
 		     -o-background-size:23px 25px;
 		        background-size:23px 25px;
 	}
-	.social-networks-light .tf-pinterest a,.person-author-light .tf-pinterest{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/white/pinterest@2x.png) !important;
+	.social-networks-light .tf-pinterest a,.person-author-light .tf-pinterest{background-image:url(../../Avada/images/white/pinterest@2x.png) !important;
 		-webkit-background-size:16px 20px;
 		   -moz-background-size:16px 20px;
 		     -o-background-size:16px 20px;
 		        background-size:16px 20px;
 	}
-	.social-networks-light .vimeo a,.person-author-light .vimeo{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/white/vimeo@2x.png) !important;
+	.social-networks-light .vimeo a,.person-author-light .vimeo{background-image:url(../../Avada/images/white/vimeo@2x.png) !important;
 		-webkit-background-size:18px 16px;
 		   -moz-background-size:18px 16px;
 		     -o-background-size:18px 16px;
 		        background-size:18px 16px;
 	}
-	.social-networks-light .flickr a,.person-author-light .flickr{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/white/flickr@2x.png) !important;
+	.social-networks-light .flickr a,.person-author-light .flickr{background-image:url(../../Avada/images/white/flickr@2x.png) !important;
 		-webkit-background-size:25px 17px;
 		   -moz-background-size:25px 17px;
 		     -o-background-size:25px 17px;
 		        background-size:25px 17px;
 	}
-	.social-networks-light .tumblr a,.person-author-light .tumblr{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/white/tumblr@2x.png) !important;
+	.social-networks-light .tumblr a,.person-author-light .tumblr{background-image:url(../../Avada/images/white/tumblr@2x.png) !important;
 		-webkit-background-size:15px 16px;
 		   -moz-background-size:15px 16px;
 		     -o-background-size:15px 16px;
 		        background-size:15px 16px;
 	}
-	.social-networks-light .google a,.person-author-light .google{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/white/google@2x.png) !important;
+	.social-networks-light .google a,.person-author-light .google{background-image:url(../../Avada/images/white/google@2x.png) !important;
 		-webkit-background-size:21px 18px;
 		   -moz-background-size:21px 18px;
 		     -o-background-size:21px 18px;
 		        background-size:21px 18px;
 	}
-	.social-networks-light .digg a,.person-author-light .digg{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/white/digg@2x.png) !important;
+	.social-networks-light .digg a,.person-author-light .digg{background-image:url(../../Avada/images/white/digg@2x.png) !important;
 		-webkit-background-size:21px 19px;
 		   -moz-background-size:21px 19px;
 		     -o-background-size:21px 19px;
 		        background-size:21px 19px;
 	}
-	.social-networks-light .blogger a,.person-author-light .blogger{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/white/blogger@2x.png) !important;
+	.social-networks-light .blogger a,.person-author-light .blogger{background-image:url(../../Avada/images/white/blogger@2x.png) !important;
 		-webkit-background-size:16px 15px;
 		   -moz-background-size:16px 15px;
 		     -o-background-size:16px 15px;
 		        background-size:16px 15px;
 	}
-	.social-networks-light .skype a,.person-author-light .skype{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/white/skype@2x.png) !important;
+	.social-networks-light .skype a,.person-author-light .skype{background-image:url(../../Avada/images/white/skype@2x.png) !important;
 		-webkit-background-size:19px 19px;
 		   -moz-background-size:19px 19px;
 		     -o-background-size:19px 19px;
 		        background-size:19px 19px;
 	}
-	.social-networks-light .myspace a,.person-author-light .myspace{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/white/myspace@2x.png) !important;
+	.social-networks-light .myspace a,.person-author-light .myspace{background-image:url(../../Avada/images/white/myspace@2x.png) !important;
 		-webkit-background-size:18px 18px;
 		   -moz-background-size:18px 18px;
 		     -o-background-size:18px 18px;
 		        background-size:18px 18px;
 	}
-	.social-networks-light .deviantart a,.person-author-light .deviantart{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/white/deviantart@2x.png) !important;
+	.social-networks-light .deviantart a,.person-author-light .deviantart{background-image:url(../../Avada/images/white/deviantart@2x.png) !important;
 		-webkit-background-size:23px 18px;
 		   -moz-background-size:23px 18px;
 		     -o-background-size:23px 18px;
 		        background-size:23px 18px;
 	}
-	.social-networks-light .yahoo a,.person-author-light .yahoo{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/white/yahoo@2x.png) !important;
+	.social-networks-light .yahoo a,.person-author-light .yahoo{background-image:url(../../Avada/images/white/yahoo@2x.png) !important;
 		-webkit-background-size:22px 14px;
 		   -moz-background-size:22px 14px;
 		     -o-background-size:22px 14px;
 		        background-size:22px 14px;
 	}
-	.social-networks-light .reddit a,.person-author-light .reddit{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/white/reddit@2x.png) !important;
+	.social-networks-light .reddit a,.person-author-light .reddit{background-image:url(../../Avada/images/white/reddit@2x.png) !important;
 		-webkit-background-size:19px 15px;
 		   -moz-background-size:19px 15px;
 		     -o-background-size:19px 15px;
 		        background-size:19px 15px;
 	}
-	.social-networks-light .forrst a,.person-author-light .forrst{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/white/forrst@2x.png) !important;
+	.social-networks-light .forrst a,.person-author-light .forrst{background-image:url(../../Avada/images/white/forrst@2x.png) !important;
 		-webkit-background-size:15px 19px;
 		   -moz-background-size:15px 19px;
 		     -o-background-size:15px 19px;
 		        background-size:15px 19px;
 	}
 
-	.social-networks-light .email a,.person-author-light .email{background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/white/mail@2x.png) !important;
+	.social-networks-light .email a,.person-author-light .email{background-image:url(../../Avada/images/white/mail@2x.png) !important;
 		-webkit-background-size:20px 14px;
 		   -moz-background-size:20px 14px;
 		     -o-background-size:20px 14px;
@@ -7133,7 +7133,7 @@ body #sidebar .button { padding-left: 15px !important; }
 	}
 
 	.popup{
-		background-image: url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/bg-popup@2x.png) !important;
+		background-image: url(../../Avada/images/bg-popup@2x.png) !important;
 		-webkit-background-size:23px 6px;
 		   -moz-background-size:23px 6px;
 		     -o-background-size:23px 6px;
@@ -7141,14 +7141,14 @@ body #sidebar .button { padding-left: 15px !important; }
 	}
 
 	.image-extras .link-icon{
-		background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/link-ico@2x.png) !important;
+		background-image:url(../../Avada/images/link-ico@2x.png) !important;
 		-webkit-background-size:35px 36px;
 		   -moz-background-size:35px 36px;
 		     -o-background-size:35px 36px;
 		        background-size:35px 36px;
 	}
 	.image-extras .gallery-icon{
-		background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/finder-ico@2x.png) !important;
+		background-image:url(../../Avada/images/finder-ico@2x.png) !important;
 		-webkit-background-size:35px 36px;
 		   -moz-background-size:35px 36px;
 		     -o-background-size:35px 36px;
@@ -7156,7 +7156,7 @@ body #sidebar .button { padding-left: 15px !important; }
 	}
 
 	.chat-icon{
-		background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/speech-bubble@2x.png) !important;
+		background-image:url(../../Avada/images/speech-bubble@2x.png) !important;
 		-webkit-background-size:26px 19px;
 		   -moz-background-size:26px 19px;
 		     -o-background-size:26px 19px;
@@ -7164,7 +7164,7 @@ body #sidebar .button { padding-left: 15px !important; }
 	}
 
 	.error-image{
-		background-image:url(file:///C|/wamp/ampersand_wp/wp-content/themes/Avada/images/404_image@2x.png) !important;
+		background-image:url(../../Avada/images/404_image@2x.png) !important;
 		-webkit-background-size:311px 133px;
 		   -moz-background-size:311px 133px;
 		     -o-background-size:311px 133px;
