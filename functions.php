@@ -66,6 +66,13 @@ function ta_modified_post_title ($title) {
 }
 
 
+function output_news_feed_ajax()
+{
+	$output = "<div class='widget-old-news-feed'><div class='loading'>Loading news...</div><div class='holdingbay'></div></div>";
+	return $output;
+}
+
+add_shortcode("aenewsfeed", "output_news_feed_ajax" );
 
 
 function output_menu_shortcode($atts)
