@@ -27,17 +27,8 @@ function ampersand_widgets_init() {
 		'after_title' => '</h2>',
 	) );
 
-	/*
-	register_sidebar( array(
-		'name' => 'Category Banner Menu Area',
-		'id' => 'ampersand_category_menu',
-		'before_widget' => '<div class="two_third last">',
-		'description'   => 'Only appears for Category Archive Pages - this is a hard coded menu',
-		'after_widget' => '</div>',
-		'before_title' => '<h2 class="rounded" style="display:none;">',
-		'after_title' => '</h2>',
-	) );
-	*/
+	
+	
 }
 add_action( 'widgets_init', 'ampersand_widgets_init' );
 
@@ -74,5 +65,20 @@ function ta_modified_post_title ($title) {
 	return $treated;
 }
 
+
+
+
+function output_menu_shortcode($atts)
+{
+	if (has_nav_menu( $atts["menu"] )):
+		
+		return wp_nav_menu( array( 'theme_location' => $atts["menu"], 'container_class' => $atts["menu"], 'echo' => false ) );
+
+	else:
+		return false;
+	endif;
+}
+
+add_shortcode("showmenu", "output_menu_shortcode" );
 
 ?>

@@ -1,4 +1,4 @@
-			Yeah2<?php global $data; ?>
+			<?php global $data; ?>
 			<?php
 			$layout = '';
 			if(is_archive()) {

@@ -43,12 +43,37 @@
 
 	transition: opacity 0.5s ease, transform 0.5s ease;
 
+	@media only screen and (max-width: 550px) {
+		width:100%;
+		display: block;
+		clear: both;
+		float: none;
+		text-align: center;
+	}
+
 }
 
 .category-section-menu ul:hover li {
 	color: @grey !important;
 	opacity:0.3;
 }
+
+
+@media only screen and (max-width: 800px) {
+	.category_banners {
+		.one_third {
+			width:100%;
+			float:none;
+			clear:both;
+			h1 {
+				text-align: center;
+			}
+		}
+	}
+
+}
+
+
 
 
 
@@ -71,7 +96,11 @@ h1.category-title {
 		.icomoon(); 
 		.icon-round-right; 
 		color: @purple; 
+		font-size:20px;
 	}
+
+	
+
 	
 	
 }
@@ -202,5 +231,19 @@ body.category .post {
 			}
 
 
+	}
+}
+
+
+@media only screen and (max-width: 800px) {
+
+	body.archive {
+		.post-content-container h2 {
+			text-align: center;
+		}
+	}
+
+	.blog-medium-image {
+		margin:10px auto !important;
 	}
 }
