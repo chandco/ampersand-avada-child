@@ -1047,11 +1047,11 @@ body #header-sticky.sticky-header #sticky-nav ul.menu .cart a{
 	height:auto;
 }
 .image .image-extras .image-extras-content h3,.image .image-extras .image-extras-content h2,.image .image-extras .image-extras-content a{
-	font:13px 'MuseoSlab500Regular', arial, helvetica, sans-serif !important;
-	color:#333333 !important;
+	font:13px 'MuseoSlab500Regular', arial, helvetica, sans-serif;
+	color:#333333;
 	text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
-	margin:0 !important;
-	margin-top:10px !important;
+	margin:0;
+	margin-top:10px;
 }
 .image .image-extras .image-extras-content h4,.image .image-extras .image-extras-content .cats,.image .image-extras .image-extras-content .cats a,.image .image-extras .image-extras-content .price{
 	font:11px 'PTSansRegular', arial, helvetica, sans-serif !important;

@@ -578,9 +578,14 @@ endif; ?>
 	<div class="avada-row category_banners">
     	
     	<div class='one_third'>
+    	<?php if (is_singular('avada_portfolio')): ?>
+		<h1 class='single-venue-title'><?php echo  get_the_title(); ?></h1>
+		<?php echo get_field('address', $post->ID); ?>
+		 
+		<?php else: ?>
 		<h1 class='category-title'><strong>Our</strong> Venues</h1>
-
-		 Some of the most prestigious and iconic venues in London
+		Some of the most prestigious and iconic venues in London
+		<?php endif; ?>	
     	</div>
     	<hr /><?php wp_nav_menu( array( 'theme_location' => 'category-section-menu', 'container_class' => 'category-section-menu' ) ); ?><hr />
 	</div>

@@ -243,9 +243,6 @@
 			<?php endif; ?>
 		</ul>
 		<?php endif; ?>
-			<ul class="copyright">
-				<li><?php echo $data['footer_text'] ?></li>
-			</ul>
 		</div>
 	</footer>
 	<?php endif; ?>

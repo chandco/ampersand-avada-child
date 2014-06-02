@@ -60,48 +60,10 @@
 			$nav_categories = $categoryID;
 		}
 		?>
-		<?php if(!$data['portfolio_pn_nav']): ?>
-		<div class="single-navigation clearfix">
-			<?php
-			if($portfolioID || $categoryID) {
-				$previous_post_link = previous_post_link_plus(array('format' => '%link', 'link' => __('Previous', 'Avada'), 'in_same_tax' => 'portfolio_category', 'in_cats' => $nav_categories, 'return' => 'href'));
-			} else {
-				$previous_post_link = previous_post_link_plus(array('format' => '%link', 'link' => __('Previous', 'Avada'), 'return' => 'href'));
-			}
-			?>
-			<?php if($previous_post_link):
-			if($portfolioID || $categoryID) {
-				if($portfolioID) {
-					$previous_post_link = tf_addUrlParameter($previous_post_link, 'portfolioID', $portfolioID);
-				} else {
-					$previous_post_link = tf_addUrlParameter($previous_post_link, 'categoryID', $categoryID);
-				}
-			}
-			?>
-			<a href="<?php echo $previous_post_link; ?>" rel="prev"><?php _e('Previous', 'Avada'); ?></a>
-			<?php endif; ?>
-			<?php
-			if($portfolioID || $categoryID) {
-				$next_post_link = next_post_link_plus(array('format' => '%link', 'link' => __('Next', 'Avada'), 'in_same_tax' => 'portfolio_category', 'in_cats' => $nav_categories, 'return' => 'href'));
-			} else {
-				$next_post_link = next_post_link_plus(array('format' => '%link', 'link' => __('Next', 'Avada'), 'return' => 'href'));
-			}
-			?>
-			<?php if($next_post_link):
-			if($portfolioID || $categoryID) {
-				if($portfolioID) {
-					$next_post_link = tf_addUrlParameter($next_post_link, 'portfolioID', $portfolioID);
-				} else {
-					$next_post_link = tf_addUrlParameter($next_post_link, 'categoryID', $categoryID);
-				}
-			}
-			?>
-			<a href="<?php echo $next_post_link; ?>" rel="next"><?php _e('Next', 'Avada'); ?></a>
-			<?php endif; ?>
-		</div>
-		<?php endif; ?>
 		<?php if(have_posts()): the_post(); ?>
 		<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+
+			
 			<?php
 			if(!$data['portfolio_featured_images']):
 			if($data['legacy_posts_slideshow']):
@@ -262,7 +224,7 @@
 				<span class="vcard" style="display: none;"><span class="fn"><?php the_author_posts_link(); ?></span></span>
 				<span class="updated" style="display: none;"><?php the_time('c'); ?></span>
 				<div class="project-description post-content" style="<?php echo $project_desc_style; ?>">
-					<h3 style="<?php echo $project_desc_title_style; ?>"><?php echo __('Project Description', 'Avada') ?></h3>
+					<h3 style="<?php echo $project_desc_title_style; ?>"><?php echo __("About " . get_the_title(), 'Avada') ?></h3>
 					<?php the_content(); ?>
 				</div>
 				<div class="project-info" style="<?php echo $project_info_style; ?>">
@@ -412,6 +374,46 @@
 			</div>
 			<?php endif; ?>
 
+<?php if(!$data['portfolio_pn_nav']): ?>
+		<div class="single-navigation clearfix">
+			<?php
+			if($portfolioID || $categoryID) {
+				$previous_post_link = previous_post_link_plus(array('format' => '%link', 'link' => __('Previous', 'Avada'), 'in_same_tax' => 'portfolio_category', 'in_cats' => $nav_categories, 'return' => 'href'));
+			} else {
+				$previous_post_link = previous_post_link_plus(array('format' => '%link', 'link' => __('Previous', 'Avada'), 'return' => 'href'));
+			}
+			?>
+			<?php if($previous_post_link):
+			if($portfolioID || $categoryID) {
+				if($portfolioID) {
+					$previous_post_link = tf_addUrlParameter($previous_post_link, 'portfolioID', $portfolioID);
+				} else {
+					$previous_post_link = tf_addUrlParameter($previous_post_link, 'categoryID', $categoryID);
+				}
+			}
+			?>
+			<a href="<?php echo $previous_post_link; ?>" rel="prev"><?php _e('Previous', 'Avada'); ?></a>
+			<?php endif; ?>
+			<?php
+			if($portfolioID || $categoryID) {
+				$next_post_link = next_post_link_plus(array('format' => '%link', 'link' => __('Next', 'Avada'), 'in_same_tax' => 'portfolio_category', 'in_cats' => $nav_categories, 'return' => 'href'));
+			} else {
+				$next_post_link = next_post_link_plus(array('format' => '%link', 'link' => __('Next', 'Avada'), 'return' => 'href'));
+			}
+			?>
+			<?php if($next_post_link):
+			if($portfolioID || $categoryID) {
+				if($portfolioID) {
+					$next_post_link = tf_addUrlParameter($next_post_link, 'portfolioID', $portfolioID);
+				} else {
+					$next_post_link = tf_addUrlParameter($next_post_link, 'categoryID', $categoryID);
+				}
+			}
+			?>
+			<a href="<?php echo $next_post_link; ?>" rel="next"><?php _e('Next', 'Avada'); ?></a>
+			<?php endif; ?>
+		</div>
+		<?php endif; ?>
 			<?php if( ($data['portfolio_related_posts'] && get_post_meta($post->ID, 'pyre_related_posts', true) != 'no' ) ||
 					  ( ! $data['portfolio_related_posts'] && get_post_meta($post->ID, 'pyre_related_posts', true) == 'yes' ) ): ?>
 			<?php $projects = get_related_projects($post->ID, $data['number_related_posts']); ?>
