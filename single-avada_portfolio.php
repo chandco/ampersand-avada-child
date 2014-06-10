@@ -238,7 +238,19 @@
 
 					<div class="project-info-box">
 						<span class='aquote babyblue floral-right'><strong>Capacities</strong></span><br />
-						<?php echo get_field('capacities', $post->ID); ?>
+						<ul>
+						<?php
+						$capacities = get_field('capacities', $post->ID); 
+
+						$list = explode(";",trim($capacities));
+
+						foreach ($list as $value) {
+
+							echo "<li>" . $value . "</li>";
+						}
+
+						?>
+						</ul>
 					</div>
 
 					<?php if(get_the_term_list($post->ID, 'portfolio_category', '', '<br />', '')): ?>

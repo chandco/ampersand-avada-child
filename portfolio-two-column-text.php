@@ -125,7 +125,7 @@ get_header(); ?>
 				<?php if(has_post_thumbnail()): ?>
 				<div class="image" aria-haspopup="true">
 					<?php if($data['image_rollover']): ?>
-					<?php the_post_thumbnail('portfolio-two'); ?>
+					<a href="<?php echo $permalink; ?>"><?php the_post_thumbnail('portfolio-two'); ?></a>
 					<?php else: ?>
 					<a href="<?php echo $permalink; ?>"><?php the_post_thumbnail('portfolio-two'); ?></a>
 					<?php endif; ?>
@@ -155,18 +155,19 @@ get_header(); ?>
 					}
 					?>
 					<div class="image-extras">
-						<div class="image-extras-content">
-							<a style="<?php echo $link_icon_css; ?>" class="icon link-icon" href="<?php echo $icon_permalink; ?>"<?php echo $link_target; ?>>Permalink</a>
-							<?php $full_image = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'full'); ?>
-							<?php
-							if(get_post_meta($post->ID, 'pyre_video_url', true)) {
-								$full_image[0] = get_post_meta($post->ID, 'pyre_video_url', true);
-							}
-							?>
-							<a style="<?php echo $zoom_icon_css; ?>" class="icon gallery-icon" href="<?php echo $full_image[0]; ?>" rel="prettyPhoto[gallery]" title="<?php echo get_post_field('post_excerpt', get_post_thumbnail_id($post->ID)); ?>"><img style="display:none;" alt="<?php echo get_post_meta(get_post_thumbnail_id($post->ID), '_wp_attachment_image_alt', true); ?>" />Gallery</a>
-							<h3 class="entry-title"><a href="<?php echo $icon_permalink; ?>"<?php echo $link_target; ?>><?php the_title(); ?></a></h3>
-							<h4><?php echo get_the_term_list($post->ID, 'portfolio_category', '', ', ', ''); ?></h4>
-						</div>
+						<a href="<?php echo $icon_permalink; ?>"<?php echo $link_target; ?>>
+							
+								<?php $full_image = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'full'); ?>
+								<?php
+								if(get_post_meta($post->ID, 'pyre_video_url', true)) {
+									$full_image[0] = get_post_meta($post->ID, 'pyre_video_url', true);
+								}
+								?>
+								
+								<h3 class="entry-title"><?php the_title(); ?></h3>
+								<?php echo get_field('address', $post->ID); ?>
+							
+						</a>
 					</div>
 				</div>
 				<?php endif; ?>
