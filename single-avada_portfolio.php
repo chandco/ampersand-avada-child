@@ -228,7 +228,7 @@
 					<?php the_content(); ?>
 				</div>
 				<div class="project-info" style="<?php echo $project_info_style; ?>">
-					<h3><?php echo __('<span class='aquote purple round-right'><strong>Venue</strong> Details</span>', 'Avada'); ?></h3>
+					<h3><?php echo __('<span class=\'aquote purple round-right\'><strong>Venue</strong> Details</span>', 'Avada'); ?></h3>
 					
 
 					<div class="project-info-box">
