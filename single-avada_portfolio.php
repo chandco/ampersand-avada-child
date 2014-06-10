@@ -232,12 +232,12 @@
 					
 
 					<div class="project-info-box">
-						<span class='aquote pink long-right'>Venue <strong>Address</strong><br />
+						<span class='aquote pink long-right'>Venue <strong>Address</strong></span><br />
 						<?php echo get_field('address', $post->ID); ?>
 					</div>
 
 					<div class="project-info-box">
-						<span class='aquote babyblue floral-right'>Venue <strong>Capacities</strong><br />
+						<span class='aquote babyblue floral-right'>Venue <strong>Capacities</strong></span><br />
 						<?php echo get_field('capacities', $post->ID); ?>
 					</div>
 
