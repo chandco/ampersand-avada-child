@@ -224,20 +224,20 @@
 				<span class="vcard" style="display: none;"><span class="fn"><?php the_author_posts_link(); ?></span></span>
 				<span class="updated" style="display: none;"><?php the_time('c'); ?></span>
 				<div class="project-description post-content" style="<?php echo $project_desc_style; ?>">
-					<h3 style="<?php echo $project_desc_title_style; ?>"><?php echo __("About " . get_the_title(), 'Avada') ?></h3>
+					<h3 style="<?php echo $project_desc_title_style; ?>"><?php echo __("<span class='aquote purple round-right'><strong>about </strong>" . get_the_title() . "</span>", 'Avada') ?></h3>
 					<?php the_content(); ?>
 				</div>
 				<div class="project-info" style="<?php echo $project_info_style; ?>">
-					<h3><?php echo __('Venue Details', 'Avada'); ?></h3>
+					<h3><?php echo __('<span class='aquote purple round-right'><strong>Venue</strong> Details</span>', 'Avada'); ?></h3>
 					
 
 					<div class="project-info-box">
-						<span class='aquote pink long-right'>Venue <strong>Address</strong></span><br />
+						<span class='aquote pink long-right'><strong>Address</strong></span><br />
 						<?php echo get_field('address', $post->ID); ?>
 					</div>
 
 					<div class="project-info-box">
-						<span class='aquote babyblue floral-right'>Venue <strong>Capacities</strong></span><br />
+						<span class='aquote babyblue floral-right'><strong>Capacities</strong></span><br />
 						<?php echo get_field('capacities', $post->ID); ?>
 					</div>
 
