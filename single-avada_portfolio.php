@@ -224,7 +224,7 @@
 				<span class="vcard" style="display: none;"><span class="fn"><?php the_author_posts_link(); ?></span></span>
 				<span class="updated" style="display: none;"><?php the_time('c'); ?></span>
 				<div class="project-description post-content" style="<?php echo $project_desc_style; ?>">
-					<h3 style="<?php echo $project_desc_title_style; ?>"><?php echo __("<span class='aquote purple round-right'><strong>about </strong>" . get_the_title() . "</span>", 'Avada') ?></h3>
+					<h3 style="<?php echo $project_desc_title_style; ?>"><?php echo __("Your Wedding At <span class='aquote purple round-right'><strong>" . get_the_title() . "</strong></span>", 'Avada') ?></h3>
 					<?php the_content(); ?>
 				</div>
 				<div class="project-info" style="<?php echo $project_info_style; ?>">
