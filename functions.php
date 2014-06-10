@@ -2,6 +2,28 @@
 
 
 // custom locations for Ampersand
+/**
+* This plugin will fix the problem where next/previous of page number buttons are broken on list
+* of posts in a category when the custom permalink string is:
+* /%category%/%postname%/
+* The problem is that with a url like this:
+* /categoryname/page/2
+* the 'page' looks like a post name, not the keyword "page"
+*/
+
+function remove_page_from_query_string($query_string)
+{
+if ($query_string['name'] == 'page' && isset($query_string['page'])) {
+unset($query_string['name']);
+// 'page' in the query_string looks like '/2', so i'm spliting it out
+list($delim, $page_index) = split('/', $query_string['page']);
+$query_string['paged'] = $page_index;
+}
+return $query_string;
+}
+// I will kill you if you remove this. I died two days for this line
+add_filter('request', 'remove_page_from_query_string');
+
 
 
 function ampersand_events_init() {
