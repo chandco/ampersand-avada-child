@@ -226,6 +226,18 @@
 				<div class="project-description post-content" style="<?php echo $project_desc_style; ?>">
 					<h3 style="<?php echo $project_desc_title_style; ?>"><?php echo __("Your Wedding At <span class='aquote purple round-right'><strong>" . get_the_title() . "</strong></span>", 'Avada') ?></h3>
 					<?php the_content(); ?>
+
+					<div class='venue-cta'>
+						<img src='<?php echo get_stylesheet_directory_uri(); ?>/img/phone.png' width='70' height='60' alt='Telephone' />
+						<h4>We'd love to help you make your dream day a reality, so drop us a line:</h4>
+						<ul class="fa-ul">
+						  <li><i class="fa fa-phone-square"></i><a href='tel:02033261220'>020 3326 1220</a></li>
+						  <li><i class="fa fa-envelope"></i><a href='mailto:weddings@ampersandevents.co.uk'>weddings@ampersandevents.co.uk</a></li>
+						  <li><i class="fa fa-twitter-square"></i><a href='http://twitter.com/ampersandevents'>@ampersandevents</a></li>
+						</ul>
+
+					</div>
+
 				</div>
 				<div class="project-info" style="<?php echo $project_info_style; ?>">
 					<h3><?php echo __('<span class=\'aquote purple round-right\'><strong>Venue</strong> Details</span>', 'Avada'); ?></h3>
