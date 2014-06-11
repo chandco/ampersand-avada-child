@@ -33,12 +33,6 @@
 		<?php wp_reset_query(); ?>
 		<?php $paged = (get_query_var('paged')) ? get_query_var('paged') : 1; ?>
 		<?php //query_posts($query_string.'&paged='.$paged); ?>
-		<?php if(!$data['blog_pn_nav']): ?>
-		<div class="single-navigation clearfix">
-			<?php previous_post_link('%link', __('Previous', 'Avada')); ?>
-			<?php next_post_link('%link', __('Next', 'Avada')); ?>
-		</div>
-		<?php endif; ?>
 		<?php if(have_posts()): the_post(); ?>
 		<div id="post-<?php the_ID(); ?>" <?php post_class('post'); ?>>
 			<?php
