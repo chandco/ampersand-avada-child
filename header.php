@@ -544,6 +544,20 @@ endif; ?>
 	<?php if(get_post_meta($c_pageID, 'pyre_page_title', true) == 'yes' || ($data['page_title_bar'] && get_post_meta($c_pageID, 'pyre_page_title', true) == 'default')): ?>
 	
 	<?php if(((is_page() || is_single() || is_singular('event'))) && !is_woocommerce() && !is_bbpress() && !is_page_template('portfolio-two-column-text.php') && !is_singular('avada_portfolio') ) : ?>
+	<div class="avada-row category_banners">
+    	
+    	<div class='one_third'>
+		<h1 class='category-title'><?php the_title(); ?></h1>
+    	<?php if(get_post_meta($c_pageID, 'pyre_page_title_custom_subheader', true) != ''): ?>
+					<h3>
+					<?php echo get_post_meta($c_pageID, 'pyre_page_title_custom_subheader', true); ?>
+					</h3>
+		<?php endif; ?>
+    	</div>
+    	<hr /><?php wp_nav_menu( array( 'theme_location' => 'category-section-menu', 'container_class' => 'category-section-menu' ) ); ?><hr />
+	</div>
+
+	<?php /*
 	<div class="page-title-container">
 		<div class="page-title">
 			<div class="page-title-wrapper">
@@ -573,6 +587,10 @@ endif; ?>
 			</div>
 		</div>
 	</div>
+
+
+    
+	*/?>
 	<?php elseif (is_singular('avada_portfolio') || is_page_template('portfolio-two-column-text.php')): ?>
 
 	<div class="avada-row category_banners">
@@ -590,7 +608,7 @@ endif; ?>
     	<hr /><?php wp_nav_menu( array( 'theme_location' => 'category-section-menu', 'container_class' => 'category-section-menu' ) ); ?><hr />
 	</div>
 
-	<?php if (is_page_template('Portfolio Two Column Text')) { echo "awww yizzle"; }  ?>
+
 
 	<?php endif; ?>
 	<?php endif; ?>
