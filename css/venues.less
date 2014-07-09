@@ -8,7 +8,7 @@
 
 body.page-template-portfolio-two-column-text-php {
 	.portfolio-item.isotope-item {
-		margin-bottom:20px;
+		margin-bottom:50px;
 	}
 	.portfolio-content {
 		h2.entry-title {
@@ -23,36 +23,48 @@ body.page-template-portfolio-two-column-text-php {
 }
 
 
-
-
-.portfolio-item .image .image-extras {
-
-	width:91%;
-	padding-left:5%;
-	padding-right:5%;
-
-	h3 {
-		font-size:24px;
+.portfolio-two .portfolio-item {
+	@margin: 50px;
+	width: 460px - @margin / 2;
+	&:nth-child(2n) {
+		margin-left: @margin;	
 	}
+	
+}
 
-	a { 
-		color:#fff;
-		display: block;
-		position: relative;
-		
-		height: 80%;
-		
-		width:60%;
-		padding: 10% 20%;
-		margin: auto;
-	}
+.portfolio-item .image {
 
-	&:before {
-	content: '';
-	display: inline-block;
-	height: 0%;
-	display: none;
-	vertical-align: middle;
+	
+
+	.image-extras {
+
+		width:91%;
+		padding-left:5%;
+		padding-right:5%;
+
+		h3 {
+			font-size:24px;
+		}
+
+		a { 
+			color:#fff;
+			display: block;
+			position: relative;
+			
+			height: 80%;
+			
+			width:60%;
+			padding: 10% 20%;
+			margin: auto;
+		}
+
+		&:before {
+		content: '';
+		display: inline-block;
+		height: 0%;
+		display: none;
+		vertical-align: middle;
+		}
 	}
 }
 
