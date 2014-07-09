@@ -1,0 +1,55 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot?61qj88');
+	src:url('fonts/icomoon.eot?#iefix61qj88') format('embedded-opentype'),
+		url('fonts/icomoon.woff?61qj88') format('woff'),
+		url('fonts/icomoon.ttf?61qj88') format('truetype'),
+		url('fonts/icomoon.svg?61qj88#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-spiral-left:before {
+	content: "\e608";
+}
+.icon-spiral-right:before {
+	content: "\e609";
+}
+.icon-hr:before {
+	content: "\e607";
+}
+.icon-round-left:before {
+	content: "\e604";
+}
+.icon-long-left:before {
+	content: "\e605";
+}
+.icon-floral-left:before {
+	content: "\e606";
+}
+.icon-round-right:before {
+	content: "\e602";
+}
+.icon-heart:before {
+	content: "\e603";
+}
+.icon-long-right:before {
+	content: "\e600";
+}
+.icon-glyph-floral:before {
+	content: "\e601";
+}
