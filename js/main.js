@@ -3,7 +3,13 @@
 
 // get the info from the news feed.  
 jQuery(function ($) {
+
 $(document).ready( function() {
+
+
+	// tooltips on menus
+
+	$("ul.menu li.menu-item a").tooltip();
 
 	if ($(".widget-old-news-feed").length)
 	{

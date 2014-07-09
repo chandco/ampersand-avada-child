@@ -11,6 +11,9 @@
 * the 'page' looks like a post name, not the keyword "page"
 */
 
+
+//require_once("custom-framework/helpers/menu-subtitles.php");
+
 function remove_page_from_query_string($query_string)
 {
 if ($query_string['name'] == 'page' && isset($query_string['page'])) {
@@ -21,8 +24,11 @@ $query_string['paged'] = $page_index;
 }
 return $query_string;
 }
-// I will kill you if you remove this. I died two days for this line
+
 add_filter('request', 'remove_page_from_query_string');
+
+
+
 
 
 

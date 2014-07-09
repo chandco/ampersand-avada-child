@@ -26,6 +26,12 @@ nav#nav, nav#sticky-nav {
 	}
 }
 
+
+body .ui-tooltip {
+	background: #fff;
+	
+}
+
 .ampersand-group-menu {
 	display:block;
 	float:right;
@@ -71,6 +77,8 @@ a .aquote {
 	transition: transform 0.5s ease;
 }
 
+
+
 .aquote {
 
 
@@ -105,6 +113,32 @@ a .aquote {
 	
 }
 
+
+body.home {
+	div.post-content {
+		div.two_third:nth-child(1) {
+			position: relative;
+			span.aquote {
+				background: #fff;
+				position: relative;
+				z-index: 1;
+				padding-right: 10px;
+			}
+			&:after {
+				content:"";
+				height: 1px;
+				background: @lightgrey;
+				position: absolute;
+				width:100%;
+				top:0;
+				margin-top: 7px;
+				bottom: 0;
+				left: 0;
+
+			}
+		}
+	}
+}
 
 // from this day forth 
 
@@ -170,6 +204,7 @@ span.rightline {
 		}
 		
 		h2 {
+			position: relative;
 			font-size:28px;
 			.avenir-medium;
 			color:@grey;
@@ -177,6 +212,33 @@ span.rightline {
 				font-family: Georgia, "Times New Roman", Times, serif;
 				font-style:italic;
 				
+			}
+
+			&:after {
+				background: #fff;
+				position: relative;
+				min-width: 100px;
+				text-align: center;
+				z-index: 2;
+				padding-right: 5px;
+
+			}
+
+			&:before {
+				content:"";
+				z-index: 1;
+				position: absolute;
+				
+				width:40%;
+				height: 1px;
+
+				background: @purple;
+				
+				margin-top: 14px;
+				top:0;
+				bottom: 0;
+				right: 0;
+
 			}
 			
 		}
@@ -215,39 +277,42 @@ span.rightline {
 		
 		&:nth-child(3n-2) {
 			//color: @pink;
+			// to have
 			a { color: @pink; }
 			h2 {
-				&:after { .icon-long-right;.icomoon;font-size:smaller;padding-left:10px;color: @pink; }
+				&:after { .icon-floral-right;.icomoon;font-size:smaller;padding-left:10px;color: @pink; }
 				strong {
 				color: @pink;
 				}
 
 			}
 			span.floral-border {
-				&:before {.icon-long-center;.icomoon; }
+				&:before {.icon-floral-center;.icomoon; }
 				border-color: @pink;
 			}
 		}
 		
 		&:nth-child(3n-1) {
+			// to hold
 			//color: @babyblue;
 			a { color: @babyblue; }
 			h2 strong {
 				color: @babyblue;
-				&:after { .icon-round-right;.icomoon;font-size:smaller;padding-left:10px; }
+				&:after { .icon-spiral-right;.icomoon;font-size:smaller;padding-left:10px; }
 			}
 			span.floral-border {
 			
-				&:before {.icon-round-center;.icomoon; }
+				&:before {.icon-long-center;.icomoon; }
 				border-color: @babyblue;
 			}
 		}
 		
 		&:nth-child(3n) {
 			//color: @peach;
+			// with love
 			a { color: @peach; }
 			h2 {
-				&:after { .icon-floral-right;.icomoon;font-size:smaller;padding-left:10px;color: @peach; }
+				&:after { .icon-heart;.icomoon;font-size:smaller;padding-left:10px;color: @peach; }
 				 strong {
 				color: @peach;
 				

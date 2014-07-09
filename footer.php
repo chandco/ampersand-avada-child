@@ -249,7 +249,7 @@
 	<?php endif; ?>
 	</div><!-- wrapper -->
 	<?php //include_once('style_selector.php'); ?>
-
+	<script type='text/javascript' src='<?php echo get_stylesheet_directory_uri(); ?>/js/min/jquery-ui.min.js'></script>
 	<?php if(!$data['status_gmap']): ?><script type="text/javascript" src="http<?php echo (is_ssl())? 's' : ''; ?>://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false&amp;language=<?php echo substr(get_locale(), 0, 2); ?>"></script><?php endif; ?>
 	<script type='text/javascript' src='<?php echo get_stylesheet_directory_uri(); ?>/js/min/main.min.js'></script>
 	<!-- W3TC-include-js-head -->

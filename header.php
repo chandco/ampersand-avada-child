@@ -69,6 +69,9 @@
 	<?php
 	wp_deregister_style( 'style-css' );
 	wp_register_style( 'style-css', get_stylesheet_uri() );
+		
+	
+
 	wp_enqueue_style( 'style-css' );
 	?>
 	<!--[if lte IE 8]>
