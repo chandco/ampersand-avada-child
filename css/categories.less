@@ -169,12 +169,13 @@ h1.category-title {
 
 .glyph-title-color(@color : @peach) {
 
-	strong, &:after { color: @color; }
+	&:after { color: @color; }
 }
 
-@tohave: @peach;
-@withlove : @babyblue;
-@tohold: @pink;
+@tohave: @pink;
+@withlove : @peach;
+@tohold: @babyblue;
+@wecherish: @lightpurple;
 
 
 .image .image-extras{
@@ -189,10 +190,16 @@ h1.category-title {
 
 body.category-to-have {
 	//a:active, a:hover, a:link, a:visited { color: @tohave; }
-	.tab-holder .tabs li.active a { border-top: 3px solid  @tohave !important; }
+	.tab-holder .tabs li.active a { 
+		border-top: 3px solid  @tohave !important; 
+	}
 	h1.category-title {
 		.glyph-title(@tohave);
 		&:after {.icon-floral-right();}
+		.avenirRoman;
+		font-weight: normal;
+		text-transform: uppercase;
+		color: @lightgrey;
 	}
 	.slides
 	{
@@ -206,13 +213,81 @@ body.category-to-have {
 	}
 }
 
+
+body.page-template-portfolio-two-column-text-php {
+
+	h1.category-title {
+			.glyph-title(@withlove);
+			
+			.baskerville-italic; color: @purple; 
+			strong { color: @lightgrey; .baskerville; }
+			&:after {.icon-spiral-right(); color: @babyblue; }
+		}
+
+
+		.slides
+		{
+			border:1px solid @withlove;
+			&:before {
+					.icon-long-center;
+					.icomoon;
+					color:@withlove;
+				}
+			
+		}
+
+
+}
+
+
+body.category-case-studies {
+
+	h1.category-title {
+			.glyph-title(@withlove);
+			
+			// first word
+			strong { color: @purple; .baskerville; }
+
+			// second word
+			.baskerville-italic; color: @lightgrey; 
+			
+			// glyphy
+			&:after {.icon-floral-left(); color: @lightpurple; }
+		}
+
+
+		.slides
+		{
+			border:1px solid @withlove;
+			&:before {
+					.icon-long-center;
+					.icomoon;
+					color:@withlove;
+				}
+			
+		}
+
+
+}
+
 body.category-with-love {
 	//a:active, a:hover, a:link, a:visited { color: @withlove; }
 	.tab-holder .tabs li.active a { border-top: 3px solid  @withlove !important; }
+	
 	h1.category-title {
-		.glyph-title(@withlove);
-		&:after {.icon-long-right();}
-	}
+			.glyph-title(@withlove);
+			
+			// first word
+			strong { color: @aubergine; .baskerville-italic; }
+
+			// second word
+			.avenirRoman; color: @lightgrey; 
+			
+			// glyphy
+			&:after {.icon-heart(); color: @peach; }
+		}
+
+
 	.slides
 	{
 		border:1px solid @withlove;
