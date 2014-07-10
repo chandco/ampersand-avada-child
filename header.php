@@ -604,7 +604,7 @@ endif; ?>
 		<?php echo get_field('address', $post->ID); ?>
 		 
 		<?php else: ?>
-		<h1 class='category-title'><strong>Our</strong> Venues</h1>
+		<h1 class='category-title'><strong>To</strong> Hold</h1>
 		Some of the most prestigious and iconic venues in London
 		<?php endif; ?>	
     	</div>
