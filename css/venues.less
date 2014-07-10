@@ -28,14 +28,46 @@ body.page-template-portfolio-two-column-text-php {
 	width: 460px - @margin / 2;
 	&:nth-child(2n) {
 		margin-left: @margin;	
+		@media only screen and (max-width: 800px) {
+			margin-left: 0;
+		}
 	}
 	
 }
 
+.portfolio-item {
+	&:before {
+			.icon-floral-center;
+			.icomoon; 
+			display:block;
+			position:absolute;
+			margin:auto;
+			left:0;
+			right:0;
+			top: 0;
+			.text-border(4px, #fff);
+			text-align:center;
+			width:auto;
+			color: @purple;
+			z-index: 5;
+
+
+
+		}
+}
+
 .portfolio-item .image {
-
 	
-
+		
+		border:1px solid @purple;
+		display:block;
+		padding:15px;
+		top:9px;
+		position: relative;
+		
+	
+	
+			
 	.image-extras {
 
 		width:91%;
