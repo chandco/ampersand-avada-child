@@ -88,9 +88,9 @@ a .aquote {
 	color: @grey;
 	.avenir-medium;
 	strong { 
-		font-family: Georgia, "Times New Roman", Times, serif;
+		.baskerville-italic;
 		font-weight:normal;
-		font-style:italic;
+		
 	}
 	
 	&.pink:after, &.pink strong { color:@pink; }
@@ -108,7 +108,7 @@ a .aquote {
 	&.floral-right:after { .icon-floral-right }
 	&.heart:after { .icon-heart }
 	
-	
+	&.grey { color:@purple; strong { color: @lightgrey; } &:after { color: @lightgrey; }}
 	
 	
 }
@@ -209,8 +209,11 @@ span.rightline {
 			.avenir-medium;
 			color:@grey;
 			strong {
-				font-family: Georgia, "Times New Roman", Times, serif;
-				font-style:italic;
+				.baskerville-italic;
+
+				position: relative;
+				z-index: 5;
+				.text-border(5px, #fff);
 				
 			}
 
@@ -257,7 +260,7 @@ span.rightline {
 				left:0;
 				right:0;
 				top:-5px;
-				.text-border(5px, #fff);
+				.text-border(3px);
 				text-align:center;
 				width:auto;
 			}
@@ -280,9 +283,10 @@ span.rightline {
 			// to have
 			a { color: @pink; }
 			h2 {
-				&:after { .icon-floral-right;.icomoon;font-size:smaller;padding-left:10px;color: @pink; }
+				&:after { color:@pink;.icon-floral-right;.icomoon;font-size:smaller;padding-left:10px;color: @pink; }
 				strong {
-				color: @pink;
+				color: @aubergine;
+				font-weight: normal;
 				}
 
 			}
@@ -297,8 +301,9 @@ span.rightline {
 			//color: @babyblue;
 			a { color: @babyblue; }
 			h2 strong {
-				color: @babyblue;
-				&:after { .icon-spiral-right;.icomoon;font-size:smaller;padding-left:10px; }
+				color: @purple;
+				font-weight: normal;
+				&:after { color:@babyblue;.icon-spiral-right;.icomoon;font-size:smaller;padding-left:10px; }
 			}
 			span.floral-border {
 			
@@ -312,10 +317,10 @@ span.rightline {
 			// with love
 			a { color: @peach; }
 			h2 {
-				&:after { .icon-heart;.icomoon;font-size:smaller;padding-left:10px;color: @peach; }
+				&:after { color: @peach;.icon-heart;.icomoon;font-size:smaller;padding-left:10px;color: @peach; }
 				 strong {
-				color: @peach;
-				
+				color: @aubergine;
+				font-weight: normal;
 
 			}
 			}

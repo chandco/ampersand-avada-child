@@ -13,7 +13,7 @@
 }
 .category-section-menu ul li {
 
-	font-size:20px;
+	font-size:24px;
 	display:inline-block;
 	line-height:34px;
 	color: @grey;
@@ -22,14 +22,15 @@
 
 	margin-right:25px;
 
-	a { color: @grey !important; }
+	
 	
 	strong { 
-		font-family: Georgia, "Times New Roman", Times, serif;
+		.baskerville-italic;
 		font-weight:normal;
-		font-style:italic;
+		
 	}
 	
+	/*
 	&:nth-child(4n-3) strong { color:@peach; }
 	&:nth-child(4n-3) a:after { .icon-floral-right; color: @peach; }
 	&:nth-child(4n-3) { text-transform: uppercase; strong { text-transform: lowercase; } }
@@ -43,7 +44,26 @@
 
 	&:nth-child(4n) strong { color:@purple; }
 	&:nth-child(4n) a:after { .icon-round-right; color:@purple; }
+
+	*/
+
+	&.to-have strong { color:@aubergine; }
+	&.to-have a:after { .icon-floral-right; color: @pink; }
+	&.to-have a { color: @lightgrey; text-transform: uppercase; strong { text-transform: lowercase; } }
 		
+	&.to-hold { .baskerville-italic; color: @purple; }
+	&.to-hold strong { .baskerville; color:@grey; }
+	&.to-hold a:after { .icon-spiral-right; color: @babyblue; }
+
+	&.we-cherish strong { .baskerville; color: @purple; }
+	&.we-cherish a { .baskerville-italic; color:@grey !important; }
+	&.we-cherish a:after { .icon-floral-left; color: @lightpurple; }
+	
+	&.with-love strong { color:@aubergine; }
+	&.with-love a:after { .icon-heart; color: @peach; }
+	&.with-love a { color: @lightgrey; strong { text-transform: lowercase; } }
+	
+
 	a:after { .icomoon;font-size:smaller;padding-left:10px; }
 
 	transform: scale(1,1);
@@ -101,9 +121,9 @@ h1.category-title {
 	font-weight: normal;
 	margin-top: 0;
 	strong { 
-		font-family: Georgia, "Times New Roman", Times, serif;
+	 	.baskerville-italic;
 		font-weight:normal;
-		font-style:italic;
+		
 		color:@purple;
 	}
 	
@@ -133,9 +153,9 @@ h1.category-title {
 	text-transform: lowercase;
 	font-weight: normal;	
 	strong { 
-		font-family: Georgia, "Times New Roman", Times, serif;
+		.baskerville-italic;
 		font-weight:normal;
-		font-style:italic;
+		
 		text-transform: lowercase;
 	}
 
