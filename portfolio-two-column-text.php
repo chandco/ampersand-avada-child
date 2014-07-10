@@ -154,6 +154,8 @@ get_header(); ?>
 						$icon_permalink = $permalink;
 					}
 					?>
+					<?php
+					/*
 					<div class="image-extras">
 						<a href="<?php echo $icon_permalink; ?>"<?php echo $link_target; ?>>
 							
@@ -169,6 +171,7 @@ get_header(); ?>
 							
 						</a>
 					</div>
+					*/ ?>
 				</div>
 				<?php endif; ?>
 				<div class="portfolio-content">
