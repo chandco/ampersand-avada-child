@@ -122,7 +122,7 @@ form, fieldset {
 #header-sticky .logo, #header .logo{
 	float:left;
 	overflow:hidden;
-	margin:31px 0;
+	margin:31px 0 10px 0;
 }
 #header-sticky .logo a, #header .logo a{
 	height:100%;
@@ -388,7 +388,7 @@ body #header-sticky.sticky-header #sticky-nav ul.menu .cart a{
 }
 .gallery-box img{width:100%;}
 #main{
-	padding:55px 10px 45px;
+	padding:20px 10px 45px;
 	background:#fff;
 	clear:both;
 }
@@ -1920,7 +1920,7 @@ ui-datepicker-header select {border: 1px solid #D2D2D2;}
 .portfolio-four .image-extras-content{
 }
 .portfolio-full .flexslider{
-	margin-bottom:70px !important;
+	margin-bottom:10px !important;
 }
 .portfolio-full .project-content{
 	margin-bottom:50px;
@@ -2380,6 +2380,9 @@ h5.toggle.active + .toggle-content{
 .sep-boxed-pricing.columns-4 .column ul{width:100%;}
 
 /* Shortcodes */
+
+
+.w100 { width: 100%; }
 .one_half, .one_third, .two_third, .three_fourth, .one_fourth { margin-right: 4%; float: left; margin-bottom:20px; position:relative; }
 .one_half { 	width: 48%; }
 .one_third { width: 30.6666%; }
@@ -6105,7 +6108,15 @@ div.pp_default .pp_details,div.light_rounded .pp_details,div.dark_rounded .pp_de
 
 /* Clearfix for the .slides element */
 .flexslider .slides:after {content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;} 
-html[xmlns] .flexslider .slides {display: block;} 
+html[xmlns] .flexslider .slides {
+	display: block;
+	
+} 
+
+
+
+
+
 * html .flexslider .slides {height: 1%;}
 
 .flexslider .slides, .flex-control-nav, .flex-direction-nav{z-index:100;}

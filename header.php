@@ -548,16 +548,9 @@ endif; ?>
 	
 	<?php if(((is_page() || is_single() || is_singular('event'))) && !is_woocommerce() && !is_bbpress() && !is_page_template('portfolio-two-column-text.php') && !is_singular('avada_portfolio') ) : ?>
 	<div class="avada-row category_banners">
-    	
-    	<div class='one_third'>
-		<h1 class='category-title'><?php the_title(); ?></h1>
-    	<?php if(get_post_meta($c_pageID, 'pyre_page_title_custom_subheader', true) != ''): ?>
-					<h3>
-					<?php echo get_post_meta($c_pageID, 'pyre_page_title_custom_subheader', true); ?>
-					</h3>
-		<?php endif; ?>
-    	</div>
     	<hr /><?php wp_nav_menu( array( 'theme_location' => 'category-section-menu', 'container_class' => 'category-section-menu' ) ); ?><hr />
+  
+    	
 	</div>
 
 	<?php /*
@@ -598,7 +591,8 @@ endif; ?>
 
 	<div class="avada-row category_banners">
     	
-    	<div class='one_third'>
+    	<hr /><?php wp_nav_menu( array( 'theme_location' => 'category-section-menu', 'container_class' => 'category-section-menu' ) ); ?><hr />
+    	<div class='w100'>
     	<?php if (is_singular('avada_portfolio')): ?>
 		<h1 class='single-venue-title'><?php echo  get_the_title(); ?></h1>
 		<?php echo get_field('address', $post->ID); ?>
@@ -608,7 +602,7 @@ endif; ?>
 		Some of the most prestigious and iconic venues in London
 		<?php endif; ?>	
     	</div>
-    	<hr /><?php wp_nav_menu( array( 'theme_location' => 'category-section-menu', 'container_class' => 'category-section-menu' ) ); ?><hr />
+    	
 	</div>
 
 
@@ -684,8 +678,10 @@ endif; ?>
 	<?php endif; ?>
     <?php if (is_category()): // For Ampersand categories - overriding the other ones and adding a special menu ?>
     <div class="avada-row category_banners">
+
+    	<hr /><?php wp_nav_menu( array( 'theme_location' => 'category-section-menu', 'container_class' => 'category-section-menu' ) ); ?><hr />
     	
-    	<div class='one_third'>
+    	<div class='w100'>
 		<h1 class='category-title'><?php single_cat_title(); ?></h1>
     	<?php 
     	// get the category subtitle
@@ -698,7 +694,7 @@ endif; ?>
  		echo get_field('category_subtitle', $queried_object);
     	?>
     	</div>
-    	<hr /><?php wp_nav_menu( array( 'theme_location' => 'category-section-menu', 'container_class' => 'category-section-menu' ) ); ?><hr />
+    	
 	</div>
     
 
