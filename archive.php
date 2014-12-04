@@ -43,7 +43,7 @@
 			<Br />
 		</div>
 		<?php endif; ?>
-	s<div id="content" class="<?php echo $content_class; ?>" style="<?php echo $content_css; ?>">
+	<div id="content" class="<?php echo $content_class; ?>" style="<?php echo $content_css; ?>">
 		
 		
 		<?php if($data['blog_archive_layout'] == 'Timeline'): ?>
