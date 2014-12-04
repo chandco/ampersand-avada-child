@@ -11,6 +11,32 @@
 		display: block;
 	}
 }
+
+body.home {
+	.category-section-menu ul li {
+
+			border-bottom: 1px solid #eeeeee;
+			&.to-have a:after { .icon-floral-right; color: @pink; }
+			&.to-have { border-right:none; border-bottom: 1px solid @pink;	}
+
+			&.to-hold a:after { .icon-spiral-right; color: @babyblue; }
+			&.to-hold { border-right:none; border-bottom: 1px solid @babyblue;	}
+			
+			&.we-cherish a:after { .icon-floral-left; color: @lightpurple; }
+			&.we-cherish { border-right:none; border-bottom: 1px solid @lightpurple;	}
+
+			&.with-love a:after { .icon-heart; color: @peach; }
+			&.with-love { border-right:none; border-bottom: 1px solid @peach;	}
+
+			&:last-of-type {
+				border-right: none !important;
+
+			}
+
+			padding-bottom: 5px;
+			margin-bottom: 5px;
+	}
+}
 .category-section-menu ul li {
 
 	font-size:24px;
@@ -18,17 +44,28 @@
 	line-height:34px;
 	color: @grey;
 	.avenir-medium;
-	text-transform: lowercase;
+	text-transform: uppercase;
 
 	margin-right:25px;
+
+	
+	
+
+	&:last-of-type {
+		border-bottom: none !important;
+
+	}
 
 	
 	
 	strong { 
 		.baskerville-italic;
 		font-weight:normal;
+		text-transform: lowercase;
 		
 	}
+
+	border-bottom: none;
 	
 	/*
 	&:nth-child(4n-3) strong { color:@peach; }
@@ -47,21 +84,39 @@
 
 	*/
 
-	&.to-have strong { color:@aubergine; }
-	&.to-have a:after { .icon-floral-right; color: @pink; }
-	&.to-have a { color: @lightgrey; text-transform: uppercase; strong { text-transform: lowercase; } }
-		
-	&.to-hold { .baskerville-italic; color: @purple; }
-	&.to-hold strong { .baskerville; color:@grey; }
-	&.to-hold a:after { .icon-spiral-right; color: @babyblue; }
-
-	&.we-cherish strong { .baskerville; color: @purple; }
-	&.we-cherish a { .baskerville-italic; color:@grey !important; }
-	&.we-cherish a:after { .icon-floral-left; color: @lightpurple; }
+	//&.to-have strong { color:@aubergine; }
 	
-	&.with-love strong { color:@aubergine; }
+	a { color: @lightgrey; strong { text-transform: lowercase; } }
+	
+		
+	//&.to-hold { .baskerville-italic; color: @purple; }
+	//&.to-hold strong { .baskerville; color:@grey; }
+
+	&.to-have a:after { .icon-floral-right; color: @pink; }
+	//&.to-have { border-right: 1px solid @pink;	}
+
+	&.to-hold a:after { .icon-spiral-right; color: @babyblue; }
+	//&.to-hold { border-right: 1px solid @babyblue;	}
+	
+	&.we-cherish a:after { .icon-floral-left; color: @lightpurple; }
+	//&.we-cherish { border-right: 1px solid @lightpurple;	}
+
 	&.with-love a:after { .icon-heart; color: @peach; }
-	&.with-love a { color: @lightgrey; strong { text-transform: lowercase; } }
+	//&.with-love { border-right: 1px solid @peach;	}
+
+
+	//&.we-cherish strong { .baskerville; color: @purple; }
+	
+	
+	
+	&:last-of-type {
+		border-right: none !important;
+
+	}
+	//&.with-love strong { color:@aubergine; }
+	
+	
+	
 	
 
 	a:after { .icomoon;font-size:smaller;padding-left:10px; }
@@ -90,6 +145,8 @@
 }
 
 
+
+
 @media only screen and (max-width: 800px) {
 	.category_banners {
 		.one_third {
@@ -106,7 +163,7 @@
 }
 
 .current-menu-item {
-	display: none !important;
+	//display: none !important;
 }
 
 

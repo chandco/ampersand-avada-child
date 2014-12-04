@@ -23,7 +23,7 @@ class description_walker extends Walker_Nav_Menu
 
            $prepend = '<strong>';
            $append = '</strong>';
-           $description  = ! empty( $item->description ) ? '<span>'.esc_attr( $item->description ).'</span>' : '';
+           $description  = ! empty( $item->description ) ? ''.esc_attr( $item->description ).'' : '';
 
            if($depth != 0)
            {

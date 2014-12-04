@@ -9,9 +9,12 @@ $(document).ready( function() {
 
 	// tooltips on menus
 
-	$("body:not(.home) ul.menu li.menu-item a").tooltip();
+	//$("body:not(.home) ul.menu li.menu-item a").tooltip();
 
-	$(".one_third ul.menu li.menu-item a").tooltip({ position: { my: "left+15 center", at: "right center" } });
+	//$(".one_third ul.menu li.menu-item a").tooltip({ position: { my: "left+15 center", at: "right center" } });
+	
+
+
 	if ($(".widget-old-news-feed").length)
 	{
 

@@ -1,0 +1,20 @@
+{
+	"name": "itavenues",
+	"description" : "ITavenues theme",
+	"author" : "Nathan Edwards <nathan@cowfields.co.uk>",
+
+	"devDependencies": {
+		"gulp" : "latest",
+    	"gulp-watch": "latest",
+    	"gulp-less" : "latest",
+    	"gulp-autoprefixer" : "latest",
+    	"browser-sync" : "latest",
+    	"gulp-uglify" : "latest",
+    	"gulp-jshint" : "latest",
+    	"gulp-sourcemaps" : "latest",
+        "gulp-image-resize" : "latest",
+        "gulp-changed" : "latest",
+        "gulp-rename" : "latest",
+        "gulp-uglifycss" : "latest"
+  	}
+ }
