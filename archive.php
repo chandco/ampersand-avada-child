@@ -42,9 +42,10 @@
 
 			<Br />
 		</div>
+		<?php endif; ?>
 	<div id="content" class="<?php echo $content_class; ?>" style="<?php echo $content_css; ?>">
 		
-		<?php endif; ?>
+		
 		<?php if($data['blog_archive_layout'] == 'Timeline'): ?>
 		<div class="timeline-icon"><i class="icon-comments-alt"></i></div>
 		<?php endif; ?>
