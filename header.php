@@ -599,7 +599,6 @@ endif; ?>
 		 
 		<?php else: ?>
 		<h1 class='category-title'><?php echo  get_the_title(); ?></h1>
-		<?php echo  get_the_content(); ?>
 		<?php endif; ?>	
     	</div>
     	
