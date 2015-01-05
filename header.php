@@ -550,7 +550,10 @@ endif; ?>
 	<div class="avada-row category_banners">
     	<hr /><?php wp_nav_menu( array( 'theme_location' => 'category-section-menu', 'container_class' => 'category-section-menu' ) ); ?><hr />
   
-    	
+
+  		<div class='w100'>
+    		<h1 class='category-title'><?php echo  ta_modified_post_title(get_the_title()); ?></h1>
+    	</div>
 	</div>
 
 	<?php /*
@@ -960,6 +963,8 @@ endif; ?>
 	</script>
 	<div class="gmap" id="gmap">
 	</div>
+
+	<?php //<h1 class='category-title'><?php echo  ta_modified_post_title(get_the_title()); ?></h1> ?>
 	<?php endif; ?>
 	<?php
 	$main_css = '';
