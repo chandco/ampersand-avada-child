@@ -63,6 +63,9 @@ get_header(); ?>
 				'terms' => $pcats
 			);
 		}
+
+		$args["orderby"] = 'menu_order';
+		$args["order"] = "ASC";
 		$gallery = new WP_Query($args);
 		if(is_array($gallery->posts) && !empty($gallery->posts)) {
 			foreach($gallery->posts as $gallery_post) {
@@ -104,6 +107,7 @@ get_header(); ?>
 		<?php endif; ?>
 		<div class="portfolio-wrapper">
 			<?php
+
 			while($gallery->have_posts()): $gallery->the_post();
 				if($pcats) {
 					$permalink = tf_addUrlParameter(get_permalink(), 'portfolioID', $current_page_id);
