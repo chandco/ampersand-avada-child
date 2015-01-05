@@ -2479,10 +2479,10 @@ h1.category-title:after {
   background-image: linear-gradient(top, #9260a9 0%, #7b4977 100%);
   background-image: -webkit-linear-gradient(top, #9260a9 0%, #7b4977 100%);
 }
-body.category-to-have .tab-holder .tabs li.active a {
+body.page-id-5057 .tab-holder .tabs li.active a {
   border-top: 3px solid #f9cbd6 !important;
 }
-body.category-to-have h1.category-title {
+body.page-id-5057 h1.category-title {
   color: #808080;
   font-family: "Avenir LT W01 65 Medium";
   text-transform: lowercase;
@@ -2492,13 +2492,13 @@ body.category-to-have h1.category-title {
   text-transform: uppercase;
   color: #b2b2b2;
 }
-body.category-to-have h1.category-title strong {
+body.page-id-5057 h1.category-title strong {
   font-family: "BaskervilleHandcutW01-R 927206";
   font-style: normal !important;
   font-weight: normal;
   text-transform: lowercase;
 }
-body.category-to-have h1.category-title:after {
+body.page-id-5057 h1.category-title:after {
   font-family: 'icomoon';
   speak: none;
   font-style: normal;
@@ -2510,16 +2510,16 @@ body.category-to-have h1.category-title:after {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-body.category-to-have h1.category-title:after {
+body.page-id-5057 h1.category-title:after {
   color: #f9cbd6;
 }
-body.category-to-have h1.category-title:after {
+body.page-id-5057 h1.category-title:after {
   content: "\e601";
 }
-body.category-to-have .slides {
+body.page-id-5057 .slides {
   border: 1px solid #f9cbd6;
 }
-body.category-to-have .slides:before {
+body.page-id-5057 .slides:before {
   content: "\e601\e606";
   font-family: 'icomoon';
   speak: none;
@@ -2533,23 +2533,23 @@ body.category-to-have .slides:before {
   -moz-osx-font-smoothing: grayscale;
   color: #f9cbd6;
 }
-body.page-template-portfolio-two-column-text-php h1.category-title {
+body h1.category-title {
   color: #808080;
   font-family: "Avenir LT W01 65 Medium";
   text-transform: lowercase;
   font-weight: normal;
   margin-bottom: 5px;
-  font-family: "BaskervilleHandcutW01-R 927206";
-  font-style: normal !important;
-  color: #9260a9;
+  text-transform: uppercase;
+  font-family: "Avenir LT W01 55 Roman";
+  color: #b2b2b2;
 }
-body.page-template-portfolio-two-column-text-php h1.category-title strong {
+body h1.category-title strong {
   font-family: "BaskervilleHandcutW01-R 927206";
   font-style: normal !important;
   font-weight: normal;
   text-transform: lowercase;
 }
-body.page-template-portfolio-two-column-text-php h1.category-title:after {
+body h1.category-title:after {
   font-family: 'icomoon';
   speak: none;
   font-style: normal;
@@ -2561,12 +2561,13 @@ body.page-template-portfolio-two-column-text-php h1.category-title:after {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-body.page-template-portfolio-two-column-text-php h1.category-title:after {
+body h1.category-title:after {
   color: #e3c7ac;
 }
-body.page-template-portfolio-two-column-text-php h1.category-title strong {
+body h1.category-title strong {
   color: #b2b2b2;
-  font-family: "BaskervilleHandcutW01-R 927200";
+  font-family: "BaskervilleHandcutW01-R 927206";
+  font-style: normal !important;
 }
 body.page-template-portfolio-two-column-text-php h1.category-title:after {
   content: "\e609";
@@ -2588,41 +2589,6 @@ body.page-template-portfolio-two-column-text-php .slides:before {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #e3c7ac;
-}
-body.category-case-studies h1.category-title {
-  color: #808080;
-  font-family: "Avenir LT W01 65 Medium";
-  text-transform: lowercase;
-  font-weight: normal;
-  margin-bottom: 5px;
-  font-family: "BaskervilleHandcutW01-R 927206";
-  font-style: normal !important;
-  color: #b2b2b2;
-}
-body.category-case-studies h1.category-title strong {
-  font-family: "BaskervilleHandcutW01-R 927206";
-  font-style: normal !important;
-  font-weight: normal;
-  text-transform: lowercase;
-}
-body.category-case-studies h1.category-title:after {
-  font-family: 'icomoon';
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-body.category-case-studies h1.category-title:after {
-  color: #e3c7ac;
-}
-body.category-case-studies h1.category-title strong {
-  color: #9260a9;
-  font-family: "BaskervilleHandcutW01-R 927200";
 }
 body.category-case-studies h1.category-title:after {
   content: "\e606";
@@ -2651,41 +2617,6 @@ h1.category-title {
 }
 body.archive .tab-holder .tabs li.active a {
   border-top: 3px solid #e3c7ac !important;
-}
-body.archive h1.category-title {
-  color: #808080;
-  font-family: "Avenir LT W01 65 Medium";
-  text-transform: lowercase;
-  font-weight: normal;
-  margin-bottom: 5px;
-  font-family: "Avenir LT W01 55 Roman";
-  color: #b2b2b2;
-}
-body.archive h1.category-title strong {
-  font-family: "BaskervilleHandcutW01-R 927206";
-  font-style: normal !important;
-  font-weight: normal;
-  text-transform: lowercase;
-}
-body.archive h1.category-title:after {
-  font-family: 'icomoon';
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-body.archive h1.category-title:after {
-  color: #e3c7ac;
-}
-body.archive h1.category-title strong {
-  color: #b2b2b2;
-  font-family: "BaskervilleHandcutW01-R 927206";
-  font-style: normal !important;
 }
 body.archive h1.category-title:after {
   content: "\e603";

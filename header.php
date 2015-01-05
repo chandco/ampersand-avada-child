@@ -598,7 +598,7 @@ endif; ?>
 		<?php echo get_field('address', $post->ID); ?>
 		 
 		<?php else: ?>
-		<h1 class='category-title'><?php echo  get_the_title(); ?></h1>
+		<h1 class='category-title'><?php echo  ta_modified_post_title(get_the_title()); ?></h1>
 		<?php endif; ?>	
     	</div>
     	
