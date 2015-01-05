@@ -2646,10 +2646,13 @@ body.category-case-studies .slides:before {
   -moz-osx-font-smoothing: grayscale;
   color: #e3c7ac;
 }
-body.category-with-love .tab-holder .tabs li.active a {
+h1.category-title {
+  font-size: 3em;
+}
+body.archive .tab-holder .tabs li.active a {
   border-top: 3px solid #e3c7ac !important;
 }
-body.category-with-love h1.category-title {
+body.archive h1.category-title {
   color: #808080;
   font-family: "Avenir LT W01 65 Medium";
   text-transform: lowercase;
@@ -2658,13 +2661,13 @@ body.category-with-love h1.category-title {
   font-family: "Avenir LT W01 55 Roman";
   color: #b2b2b2;
 }
-body.category-with-love h1.category-title strong {
+body.archive h1.category-title strong {
   font-family: "BaskervilleHandcutW01-R 927206";
   font-style: normal !important;
   font-weight: normal;
   text-transform: lowercase;
 }
-body.category-with-love h1.category-title:after {
+body.archive h1.category-title:after {
   font-family: 'icomoon';
   speak: none;
   font-style: normal;
@@ -2676,22 +2679,22 @@ body.category-with-love h1.category-title:after {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-body.category-with-love h1.category-title:after {
+body.archive h1.category-title:after {
   color: #e3c7ac;
 }
-body.category-with-love h1.category-title strong {
-  color: #7b4977;
+body.archive h1.category-title strong {
+  color: #b2b2b2;
   font-family: "BaskervilleHandcutW01-R 927206";
   font-style: normal !important;
 }
-body.category-with-love h1.category-title:after {
+body.archive h1.category-title:after {
   content: "\e603";
   color: #e3c7ac;
 }
-body.category-with-love .slides {
+body.archive .slides {
   border: 1px solid #e3c7ac;
 }
-body.category-with-love .slides:before {
+body.archive .slides:before {
   content: "\e605\e600";
   font-family: 'icomoon';
   speak: none;
@@ -2950,11 +2953,11 @@ body.page-template-portfolio-two-column-text-php .portfolio-content .post-conten
   display: none;
   vertical-align: middle;
 }
-body.archive .post .flexslider {
+body.archive .post.has-post-thumbnail .flexslider {
   width: 45%;
   margin-right: 5% !important;
 }
-body.archive .post .post-content-container {
+body.archive .post.has-post-thumbnail .post-content-container {
   width: 50%;
   float: left;
 }
