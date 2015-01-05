@@ -49,7 +49,7 @@ gulp.task('compile-css', function () {
 				.pipe(sourcemaps.init())
 			    .pipe(less())
 			    .pipe(autoprefixer())
-                .pipe(uglifycss())
+                //.pipe(uglifycss())
 			    .pipe(sourcemaps.write('./maps'))
 			    .pipe(gulp.dest('./css/'));
 
