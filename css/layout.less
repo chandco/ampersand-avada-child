@@ -223,8 +223,7 @@ span.rightline {
 
 }
 
-
-#main .homepage-trio {
+body.home #main .homepage-trio {
 	
 	div.one_third {
 
@@ -353,6 +352,148 @@ span.rightline {
 			a { color: @peach; }
 			h2 {
 				&:after { color: @peach;.icon-heart;.icomoon;font-size:smaller;padding-left:10px;color: @peach; }
+				 strong {
+				color: @aubergine;
+				font-weight: normal;
+
+			}
+			}
+			span.floral-border {
+				&:before {.icon-floral-center;.icomoon; }				
+				border-color:@peach;
+			}
+		}
+
+		
+	}
+	
+}
+
+
+#main .homepage-trio {
+	
+	text-align: center;
+	div.one_third {
+
+		display: inline-block !important;
+		vertical-align: top;
+		float: none;
+		margin-right: 3%;
+
+		@media only screen and (max-width: 550px) {
+			width:100%;
+			float: none;
+			clear: both;
+
+			h2 {
+				text-align: center;
+			}
+		}
+		
+		h2, h3 {
+			position: relative;
+			font-size:1.4em;
+			.avenir-medium;
+			color:@grey;
+			strong {
+				.baskerville-italic;
+
+				position: relative;
+				z-index: 5;
+				.text-border(5px, #fff);
+				
+			}
+
+			&:after {
+				background: #fff;
+				position: relative;
+				min-width: 100px;
+				text-align: center;
+				z-index: 2;
+				padding-right: 5px;
+
+			}
+
+			&:before {
+				display: none;
+
+			}
+			
+		}
+		
+		span.floral-border {
+			
+			border:1px solid @purple;
+			display:block;
+			padding:5%;
+			height:0;
+			padding-bottom:64.25%;
+			&:before {
+				display:block;
+				position:absolute;
+				margin:auto;
+				left:0;
+				right:0;
+				top:-5px;
+				.text-border(2px);
+				text-align:center;
+				width:auto;
+				font-size: 0.8em;
+			}
+					
+			img {
+				box-shadow: 1px 1px 8px RGBA(0,0,0,0.7);
+				transition: transform 0.2s ease;
+				width:100%;
+			}
+
+			&:hover {
+				img { 
+					transform:scale(1.1,1.1);
+				}
+			}
+		}
+		
+		&:nth-child(3n-2) {
+			//color: @pink;
+			// to have
+			a { color: @pink; }
+			h2 {
+				
+				strong {
+				color: @aubergine;
+				font-weight: normal;
+				}
+
+			}
+			span.floral-border {
+				&:before {.icon-floral-center;.icomoon; }
+				border-color: @pink;
+			}
+		}
+		
+		&:nth-child(3n-1) {
+			// to hold
+			//color: @babyblue;
+			a { color: @babyblue; }
+			h2 strong {
+				color: @purple;
+				font-weight: normal;
+				
+			}
+			span.floral-border {
+			
+				&:before {.icon-long-center;.icomoon; }
+				border-color: @babyblue;
+			}
+		}
+		
+		&:nth-child(3n) {
+			//color: @peach;
+			// with love
+			a { color: @peach; }
+			h2 {
+				
 				 strong {
 				color: @aubergine;
 				font-weight: normal;
