@@ -51,3 +51,191 @@ body.archive {
 		}
 	}
 }
+
+// Post Formatting
+
+body .post-content .image-extras .link-icon{margin-right:3px !important;}
+.post-content .image-extras h3,.post-content .image-extras h4{line-height:normal !important;}
+.post-content .image-extras h4{font-size:11px !important;margin-top:3px !important;}
+
+.post{
+	margin-bottom:65px;
+}
+.post .image{
+	margin-bottom:40px;
+}
+#main .post h2 {
+	
+	color:@purple;
+	font-weight: normal;
+	margin:0 0 25px 0;
+	padding:0;
+	a {
+		color:@purple;
+		font-weight: normal;
+	}
+}
+
+
+
+.post .post-content{
+	color:#747474;
+}
+.post .meta-info{
+	border-top:1px solid #e7e6e6;
+	border-bottom:1px solid #e7e6e6;
+	margin-top:36px;
+	padding: 5px 0;
+	font-size:12px;
+	clear:both;
+	overflow:hidden;
+}
+
+.post .single-line-meta{
+	font-size:12px;
+}
+
+.post .meta-tags{
+	font-size:12px;
+}
+.post .meta-tags.top{
+	margin-bottom:20px;
+}
+.post .meta-tags.bottom{
+	margin-top:20px;
+}
+.single-line-meta.with-tags{
+	margin-bottom:0;
+}
+
+.single-post .post .meta-info, .avada_faq .meta-info{
+		margin-bottom:55px;
+}
+.post .meta-info .sep{
+	padding:0px 5px;
+}
+.post .meta-info .alignleft{
+	width:85%;
+}
+
+
+
+
+
+.page-id-5071 #main h2 { // canapes
+	.baskerville-italic;
+
+	&:after {
+		.icomoon();
+		.icon-floral-right();
+		color: @pink;
+
+		font-size: 0.8em;
+
+		margin-left: 0.4em;
+	}
+
+	&:before {
+		.icomoon();
+		.icon-floral-left();
+		color: @pink;
+
+		font-size: 0.8em;
+
+		margin-right: 0.4em;
+	}
+}
+
+.page-id-5074 #main h2 { // breakfast
+	.baskerville-italic;
+
+	&:after {
+		.icomoon();
+		.icon-long-right();
+		color: @pink;
+
+		font-size: 0.8em;
+
+		margin-left: 0.4em;
+	}
+
+	&:before {
+		.icomoon();
+		.icon-long-left();
+		color: @pink;
+
+		font-size: 0.8em;
+
+		margin-right: 0.4em;
+	}
+}
+
+.page-id-5095 #main h2 { // social sharting
+	.baskerville-italic;
+
+	&:after {
+		.icomoon();
+		.icon-floral-right();
+		color: @peach;
+
+		font-size: 0.8em;
+
+		margin-left: 0.4em;
+	}
+
+	&:before {
+		.icomoon();
+		.icon-floral-left();
+		color: @peach;
+
+		font-size: 0.8em;
+
+		margin-right: 0.4em;
+	}
+}
+
+
+body.single-post {
+	h1.category-title {
+		text-transform: none;
+		&:after {content: "" }
+	}
+}
+
+.post-content blockquote{
+	background: #FFFFFF;
+color: rgba(141, 138, 145, 0.8);
+border-left: none;
+padding: 15px;
+font-size: 1.3em;
+/* font-weight: bold; */
+width: 92%;
+margin: auto;
+font-family: "BaskervilleHandcutW01-R 927206";
+font-style: normal !important;
+position: relative;
+box-sizing: border-box;
+padding-left: 10%;
+margin: 1em auto 1em auto;
+
+	.baskerville-italic;
+
+	&:before {
+		content: "“";
+		font-size: 8em;
+		display: inline-block;
+		width: auto;
+		/* height: auto; */
+		position: absolute;
+		left: -5%;
+		top: -2%;
+		color: @purple;
+	}
+}
+.post-content blockquote *:last-child{
+	margin-bottom:0;
+}
+
+#main .post .related-posts h2 {
+	color: @lightgrey;
+}

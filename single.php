@@ -188,7 +188,9 @@
 			<?php endif; ?>
 			<?php wp_reset_query(); ?>
 			<?php if($data['blog_post_title']): ?>
+			<?php /*
 			<h1 class="entry-title"><?php the_title(); ?></h1>
+			*/ ?>
 			<?php else: ?>
 			<span class="entry-title" style="display: none;"><?php the_title(); ?></span>
 			<?php endif; ?>

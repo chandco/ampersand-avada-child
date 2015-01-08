@@ -2859,6 +2859,48 @@ body.category .post .slides:before {
     margin: 10px auto !important;
   }
 }
+.project-content h3 {
+  color: #333333;
+  margin: 0 !important;
+  margin-bottom: 20px !important;
+  font-size: 2em;
+}
+.project-content h3 .aquote {
+  font-size: 1em;
+}
+.project-content {
+  overflow: hidden;
+}
+.project-content .project-description {
+  float: left;
+  width: 74.4681%;
+}
+.project-content .project-description p {
+  margin-top: 0;
+}
+.project-content .project-info {
+  float: right;
+  width: 23.4043%;
+}
+.project-content .project-info .project-info-box {
+  border-bottom: 1px solid #e7e6e6;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+.project-content .project-info .project-info-box a {
+  color: #747474 !important;
+}
+.project-content .project-info .project-info-box a:hover {
+  color: #9260a9 !important;
+}
+.project-content .project-info h4 {
+  font-family: 'MuseoSlab500Regular', arial, helvetica, sans-serif;
+  color: #333333;
+  margin: 0 !important;
+  float: left;
+  width: 110px;
+}
 .project-content .project-description h3 {
   color: #808080;
 }
@@ -3037,6 +3079,219 @@ body.archive .post.has-post-thumbnail .flexslider {
 body.archive .post.has-post-thumbnail .post-content-container {
   width: 50%;
   float: left;
+}
+body .post-content .image-extras .link-icon {
+  margin-right: 3px !important;
+}
+.post-content .image-extras h3,
+.post-content .image-extras h4 {
+  line-height: normal !important;
+}
+.post-content .image-extras h4 {
+  font-size: 11px !important;
+  margin-top: 3px !important;
+}
+.post {
+  margin-bottom: 65px;
+}
+.post .image {
+  margin-bottom: 40px;
+}
+#main .post h2 {
+  color: #9260a9;
+  font-weight: normal;
+  margin: 0 0 25px 0;
+  padding: 0;
+}
+#main .post h2 a {
+  color: #9260a9;
+  font-weight: normal;
+}
+.post .post-content {
+  color: #747474;
+}
+.post .meta-info {
+  border-top: 1px solid #e7e6e6;
+  border-bottom: 1px solid #e7e6e6;
+  margin-top: 36px;
+  padding: 5px 0;
+  font-size: 12px;
+  clear: both;
+  overflow: hidden;
+}
+.post .single-line-meta {
+  font-size: 12px;
+}
+.post .meta-tags {
+  font-size: 12px;
+}
+.post .meta-tags.top {
+  margin-bottom: 20px;
+}
+.post .meta-tags.bottom {
+  margin-top: 20px;
+}
+.single-line-meta.with-tags {
+  margin-bottom: 0;
+}
+.single-post .post .meta-info,
+.avada_faq .meta-info {
+  margin-bottom: 55px;
+}
+.post .meta-info .sep {
+  padding: 0px 5px;
+}
+.post .meta-info .alignleft {
+  width: 85%;
+}
+.page-id-5071 #main h2 {
+  font-family: "BaskervilleHandcutW01-R 927206";
+  font-style: normal !important;
+}
+.page-id-5071 #main h2:after {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\e601";
+  color: #f9cbd6;
+  font-size: 0.8em;
+  margin-left: 0.4em;
+}
+.page-id-5071 #main h2:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\e606";
+  margin-left: 4px;
+  color: #f9cbd6;
+  font-size: 0.8em;
+  margin-right: 0.4em;
+}
+.page-id-5074 #main h2 {
+  font-family: "BaskervilleHandcutW01-R 927206";
+  font-style: normal !important;
+}
+.page-id-5074 #main h2:after {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\e600";
+  color: #f9cbd6;
+  font-size: 0.8em;
+  margin-left: 0.4em;
+}
+.page-id-5074 #main h2:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\e605";
+  color: #f9cbd6;
+  font-size: 0.8em;
+  margin-right: 0.4em;
+}
+.page-id-5095 #main h2 {
+  font-family: "BaskervilleHandcutW01-R 927206";
+  font-style: normal !important;
+}
+.page-id-5095 #main h2:after {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\e601";
+  color: #e3c7ac;
+  font-size: 0.8em;
+  margin-left: 0.4em;
+}
+.page-id-5095 #main h2:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\e606";
+  margin-left: 4px;
+  color: #e3c7ac;
+  font-size: 0.8em;
+  margin-right: 0.4em;
+}
+body.single-post h1.category-title {
+  text-transform: none;
+}
+body.single-post h1.category-title:after {
+  content: "";
+}
+.post-content blockquote {
+  background: #FFFFFF;
+  color: rgba(141, 138, 145, 0.8);
+  border-left: none;
+  padding: 15px;
+  font-size: 1.3em;
+  /* font-weight: bold; */
+  width: 92%;
+  margin: auto;
+  position: relative;
+  box-sizing: border-box;
+  padding-left: 10%;
+  margin: 1em auto 1em auto;
+  font-family: "BaskervilleHandcutW01-R 927206";
+  font-style: normal !important;
+}
+.post-content blockquote:before {
+  content: "“";
+  font-size: 8em;
+  display: inline-block;
+  width: auto;
+  /* height: auto; */
+  position: absolute;
+  left: -5%;
+  top: -2%;
+  color: #9260a9;
+}
+.post-content blockquote *:last-child {
+  margin-bottom: 0;
+}
+#main .post .related-posts h2 {
+  color: #b2b2b2;
 }
 /*! jQuery UI - v1.11.0 - 2014-07-09
 * http://jqueryui.com

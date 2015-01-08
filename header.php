@@ -552,7 +552,12 @@ endif; ?>
   
 
   		<div class='w100'>
-    		<h1 class='category-title'><?php echo  ta_modified_post_title(get_the_title()); ?></h1>
+  			<?php if (is_page()): ?>
+    			<h1 class='category-title'><?php echo  ta_modified_post_title(get_the_title()); ?></h1>
+    		<?php else: ?>
+    			<h1 class='category-title'><?php echo  (get_the_title()); ?></h1>
+    		<?php endif; ?>
+
     	</div>
 	</div>
 

@@ -1075,64 +1075,6 @@ body #header-sticky.sticky-header #sticky-nav ul.menu .cart a{
 .image-extras .cats{display:block;}
 .image-extras .cats a{display:inline;line-height:normal !important;}
 
-body .post-content .image-extras .link-icon{margin-right:3px !important;}
-.post-content .image-extras h3,.post-content .image-extras h4{line-height:normal !important;}
-.post-content .image-extras h4{font-size:11px !important;margin-top:3px !important;}
-
-.post{
-	margin-bottom:65px;
-}
-.post .image{
-	margin-bottom:40px;
-}
-#main .post h2{
-	
-	color:#333333;
-	margin:0 0 25px 0;
-	padding:0;
-}
-#main .post h2 a{
-	color:#333333;
-}
-.post .post-content{
-	color:#747474;
-}
-.post .meta-info{
-	border-top:1px solid #e7e6e6;
-	border-bottom:1px solid #e7e6e6;
-	margin-top:36px;
-	padding: 5px 0;
-	font-size:12px;
-	clear:both;
-	overflow:hidden;
-}
-
-.post .single-line-meta{
-	font-size:12px;
-}
-
-.post .meta-tags{
-	font-size:12px;
-}
-.post .meta-tags.top{
-	margin-bottom:20px;
-}
-.post .meta-tags.bottom{
-	margin-top:20px;
-}
-.single-line-meta.with-tags{
-	margin-bottom:0;
-}
-
-.single-post .post .meta-info, .avada_faq .meta-info{
-		margin-bottom:55px;
-}
-.post .meta-info .sep{
-	padding:0px 5px;
-}
-.post .meta-info .alignleft{
-	width:85%;
-}
 .search input,#searchform input{
 	border:1px solid #e7e6e6;
 	padding:5px 0px;
@@ -1972,46 +1914,6 @@ ui-datepicker-header select {border: 1px solid #D2D2D2;}
 	padding-left:5px;
 	font-size:8px;
 }
-.project-content h3{
-	
-	color:#333333;
-	margin:0 !important;
-	margin-bottom:40px !important;
-}
-.project-content{
-	overflow:hidden;
-}
-.project-content .project-description{
-	float:left;
-	width:74.4681%;
-}
-.project-content .project-description p{
-	margin-top:0;
-}
-.project-content .project-info{
-	float:right;
-	width:23.4043%;
-}
-.project-content .project-info .project-info-box{
-	border-bottom:1px solid #e7e6e6;
-	padding-bottom:15px;
-	margin-bottom:15px;
-	overflow:hidden;
-}
-.project-content .project-info .project-info-box a{
-	color:#747474 !important;
-}
-.project-content .project-info .project-info-box a:hover{
-	color:#9260a9 !important;
-}
-.project-content .project-info h4{
-	font-family: 'MuseoSlab500Regular', arial, helvetica, sans-serif;
-	color:#333333;
-	margin:0 !important;
-	float:left;
-	width:110px;
-}
-
 .with-sidebar .project-content .project-info .project-info-box h4{display:block;width:100%;margin-bottom:5px !important;}
 .portfolio-full.with-sidebar .project-info{float:left;}
 .portfolio-full.with-sidebar .project-description{float:right;width:72.5%;}
@@ -2557,16 +2459,7 @@ h5.toggle.active + .toggle-content{
 	margin-bottom:15px;
 	padding-left:25px;
 }
-.post-content blockquote{
-	background:#f5f5f5;
-	
-	color:#444444;
-	border-left:4px solid #9260a9;
-	padding:15px;
-}
-.post-content blockquote *:last-child{
-	margin-bottom:0;
-}
+
 #gmap{
 	height:416px;
 	margin-bottom:50px;

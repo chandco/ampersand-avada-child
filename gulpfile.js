@@ -55,7 +55,16 @@ gulp.task('compile-css', function () {
 
 });
 
+gulp.task('dist-css', function () {
+    gulp.src('./css/ampersand.less')
+                //.pipe(sourcemaps.init())
+                .pipe(less())
+                .pipe(autoprefixer())
+                .pipe(uglifycss())
+                //.pipe(sourcemaps.write('./maps'))
+                .pipe(gulp.dest('./css/'));
 
+});
 
 
 
