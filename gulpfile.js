@@ -18,7 +18,7 @@ gulp.task('default', function () {
 
 
 	browserSync({
-	        proxy: "ampersand.local",
+	        proxy: "www.ampersandcatering.co.uk.gridhosted.co.uk",
 	        files: "./css/*.css"
 	    });
 	
