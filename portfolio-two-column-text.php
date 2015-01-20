@@ -128,6 +128,7 @@ get_header(); ?>
 			<div class="portfolio-item <?php echo $item_classes; ?>">
 				<?php if(has_post_thumbnail()): ?>
 				<div class="image" aria-haspopup="true">
+					<div class='img-container'>
 					<?php if($data['image_rollover']): ?>
 					<a href="<?php echo $permalink; ?>"><?php the_post_thumbnail('portfolio-two'); ?></a>
 					<?php else: ?>
@@ -176,6 +177,7 @@ get_header(); ?>
 						</a>
 					</div>
 					*/ ?>
+					</div>
 				</div>
 				<?php endif; ?>
 				<div class="portfolio-content">
